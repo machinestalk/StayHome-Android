@@ -1,0 +1,295 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="md_dark_theme">false</item>
+        <item name="md_widget_color">@color/colorAccent</item>
+        <!--<item name="actionMenuTextAppearance">@style/MyMenuTextAppearance</item>-->
+        <item name="colorControlNormal">@color/white</item>
+        <item name="actionModeCloseDrawable">@drawable/ic_arrow_back</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="actionModeBackground">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/black</item>
+
+    </style>
+
+    <style name="Theme_Dialog" parent="android:Theme.Holo.Dialog">
+        <item name="windowMinWidthMajor">100%</item>
+        <item name="windowMinWidthMinor">65%</item>
+    </style>
+
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/dialog_bg</item>
+    </style>
+
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- Customize color of navigation drawer icon and back arrow -->
+        <item name="colorControlNormal">@color/black</item>
+    </style>
+
+
+    <style name="myDialog" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        ...
+    </style>
+
+    <style name="AppTheme.SlidrActivityTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        ...
+    </style>
+
+    <!-- <style name="MyMenuTextAppearance" parent="android:TextAppearance.Holo.Widget.ActionBar.Menu">
+        <item name="android:textAllCaps">false</item>
+        <item name="textAllCaps">false</item>
+    </style>-->
+
+    <style name="SwitchStyle" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorSwitchThumbNormal">@color/colorAccent</item>
+        <item name="android:colorForeground">@color/grayDark</item>
+    </style>
+
+    <style name="CMOptionsMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">-4.0dip</item>
+        <item name="android:textColor">@color/black</item>
+
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+
+    <style name="ActionBar.nameText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:layoutDirection">locale</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="button_blue">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:background">@drawable/btn_blue_selector</item>
+    </style>
+
+    <style name="text_empty_record">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:text">@string/Gen_Gen_lbl_no_records_found</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">@color/primary_dark_material_dark</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="separator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:alpha">.5</item>
+    </style>
+
+    <style name="toolbar_full_height_button" parent="toolbar_text_button">
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="toolbar_text_button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <!--
+        <style name="normal_text">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:layout_marginTop">10dp</item>
+            <item name="android:textColor">@android:color/white</item>
+            <item name="android:gravity">center</item>
+        </style>-->
+
+    <style name="profile_sub_header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#e5e9f0</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">5dp</item>
+        <item name="android:paddingBottom">7dp</item>
+        <item name="android:textColor">@color/signup_here</item>
+        <item name="android:textSize">12sp</item>
+        <item name="font_path_from_assets">@string/font_light</item>
+        <item name="android:textDirection">locale</item>
+    </style>
+
+    <style name="recycler_view">
+        <item name="colorAccent">@color/gray</item>
+    </style>
+
+
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="myPopupMenuTextAppearanceSmall" parent="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small">
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="myPopupMenuTextAppearanceLarge" parent="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Large">
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="myCheckBox" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/gray</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+    </style>
+
+    <!-- ToolBar -->
+    <style name="ToolBarStyle" parent="Theme.AppCompat">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="regularText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/grayExtraDark</item>
+        <item name="font_path_from_assets">@string/font_light</item>
+    </style>
+
+    <style name="semiBoldText" parent="regularText">
+        <item name="font_path_from_assets">@string/font_regular</item>
+    </style>
+
+    <style name="boldText" parent="regularText">
+        <item name="font_path_from_assets">@string/font_semi_bold</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="URTransparent" parent="AppTheme">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="SCBSwitchGreen" parent="Theme.AppCompat.Light">
+
+        <item name="colorControlActivated">@color/green_selector</item>
+
+    </style>
+
+    <style name="regularButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="font_path_from_assets">@string/font_light</item>
+    </style>
+
+    <style name="semiBoldButton" parent="regularText">
+        <item name="font_path_from_assets">@string/font_regular</item>
+    </style>
+
+    <style name="boldButton" parent="regularText">
+        <item name="font_path_from_assets">@string/font_semi_bold</item>
+    </style>
+
+    <style name="blue_background_label">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/drivers_background</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:gravity">bottom|start</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+    </style>
+
+    <style name="ActivityAsDialog" parent="Base.Theme.AppCompat.Dialog">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.NoActionAndStatusBar" parent="AppTheme.NoActionBar">
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+    </style>
+
+
+    <style name="CalenderViewCustom" parent="Theme.AppCompat">
+        <item name="colorAccent">@color/green_color</item>
+        <item name="colorPrimary">@color/green_color</item>
+    </style>
+
+    <style name="CalenderViewDateCustomText" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="CalenderViewWeekCustomText" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@color/blue_color</item>
+    </style>
+
+
+    <style name="CustomTabLayoutStyle" parent="Base.Widget.Design.TabLayout">
+        <item name="tabSelectedTextColor">@color/green_color</item>
+        <item name="tabIndicatorColor">@color/green_color</item>
+        <item name="tabTextAppearance">@style/CustomTabTexStyle</item>
+    </style>
+
+    <style name="CustomTabTexStyle" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="MotSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/green_color</item>
+
+    </style>
+
+</resources>

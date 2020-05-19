@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_slide_menu_item_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    android:layout_marginEnd="30dp"
+    android:layout_marginStart="3dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="4dp"
+    android:paddingTop="4dp">
+
+    <View
+        android:id="@+id/view_dashboard_item_selected_line"
+        android:layout_width="3dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/green_color" />
+
+    <com.machinestalk.android.components.ImageView
+        android:id="@+id/ivDashboardMenuIcon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/ic_maps" />
+
+    <com.machinestalk.stayhome.components.TextView
+        android:id="@+id/txtDashboardMenuName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:ellipsize="end"
+        android:gravity="end"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:text="Zones"
+        android:textColor="@drawable/selector_title_slide_menu"
+        android:textSize="14sp" />
+
+    <com.machinestalk.android.components.ImageView
+        android:id="@+id/Dev_expiry_status_DashboardMenuIcon"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="20dp"
+        android:visibility="gone"
+        android:src="@drawable/red_circle" />
+
+
+</LinearLayout>

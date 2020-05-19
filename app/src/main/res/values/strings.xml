@@ -1,0 +1,806 @@
+<resources>
+    <string name="Gen_Gen_lbl_app_name">StayAtHome</string>
+    <string name="font_default">@string/font_regular</string>
+    <string name="font_light">Avenir-Regular.ttf</string>
+    <string name="font_Avenir_semi_final">Avenir-Regular.ttf</string>
+    <string name="font_avenir_bold">Avenir-Regular.ttf</string>
+    <string name="font_regular">Avenir-Regular.ttf</string>
+    <string name="font_semi_bold">Avenir-Regular.ttf</string>
+    <string name="font_light_separate">Avenir-Regular.ttf</string>
+    <string name="font_avenir_heavy">Avenir-Regular.ttf</string>
+    <string name="font_notification">AvenirLTStd-Light.otf</string>
+    <string name="font_notification_bold">AvenirLTStd-Roman.otf</string>
+    <string name="font_bold">Avenir-Heavy.ttf</string>
+    <string name="Gen_Gen_lbl_version_app">Version </string>
+
+    <string name="ApDr_ApDr_lbl_open_drawer">Open drawer</string>
+    <string name="ApDr_Gen_lbl_close_drawer">Close drawer</string>
+
+    <string name="Gen_Gen_lbl_calendar">Calendar</string>
+
+    <string name="Trp_MyTr_lbl_my_trips">My Trips</string>
+    <string name="ApDr_ApDr_SBtn_my_trips_drawer">My Trips <![CDATA[<b><font color=#FF0000> (Beta) </font></b>]]></string>
+    <string name="Trp_MyTr_lbl_trips">Mishwar</string>
+
+    <string name="ApDr_ApDr_SBtn_zones">My Zone</string>
+    <string name="ApDr_ApDr_SBtn_guidance">Road Assistance</string>
+    <string name="ApDr_ApDr_SBtn_assistance">Assistance</string>
+    <string name="ApDr_ApDr_SBmsg_invite">please select at least one vehicle</string>
+
+    <string name="Gen_Gen_lbl_settings">Settings</string>
+    <string name="HHD_Gen_lbl_dashboard_title">Dashboard</string>
+    <string name="ApDr_ApDr_SBtn_logout">LogOut</string>
+    <string name="ApDr_ApDr_SBtn_drawer_about">About us</string>
+
+    <string name="Gen_Gen_lbl_menu_edit">Edit</string>
+    <string name="Gen_Gen_lbl_ok">Ok</string>
+    <string name="Gen_Gen_lbl_ok_wifi">Go Wifi Setting</string>
+    <string name="Gen_Gen_lbl_cancel">Cancel</string>
+    <string name="HHDH_Gen_lbl_user_role_householder">Householder</string>
+    <string name="LMT_Gen_lbl_fab_zone">Zones</string>المناطق
+    <string name="LMT_Gen_lbl_fab_satellite">Satellite</string>
+    <string name="LMT_Gen_lbl_fab_traffic">Traffic</string>
+    <string name="Gen_Gen_lbl_done">Done</string>
+    <string name="Pay_Gen_lbl_pay">Pay</string>
+
+
+    <string-array name="Gen_Gen_lbl_image_picker">
+        <item>Open Camera</item>
+        <item>Photo Library</item>
+    </string-array>
+
+    <string-array name="Gen_Gen_lbl_image_picker_extended">
+        <item>Open Camera</item>
+        <item>Photo Library</item>
+        <item>Remove Photo</item>
+    </string-array>
+
+
+    <!--Login-->
+    <string name="Gen_Gen_lbl_all_fields_required">All fields are required.</string>
+
+    <string name="SgIn_SgIn_lbl_server_url_dialog_hint">http://myurl.com</string>
+    <string name="SgIn_SgIn_lbl_server_signal_r_url_dialog_hint">http://signaRurl.com</string>
+    <string name="SgIn_SgIn_lbl_server_url_dialog_title">Enter URL</string>
+    <string name="SgIn_SgIn_lbl_not_registered">Not Registered?</string>
+
+
+    <!--Reset-->
+    <string name="reset_enter_code">Email</string>
+
+
+    <!--Signup-->
+    <string name="Gen_Gen_Iptxt_hint_confirm_password">Confirm Password</string>
+    <string name="SgIn_SgIn_lbl_invalid_lenght_phone_number">Phone number is invalid</string>
+    <string name="SgIn_SgIn_lbl_empty_phone_number">Please enter a valid phone number</string>
+
+    <!--Add Device-->
+
+    <string name="device_serial_error">You need to enter a serial number</string>
+
+
+    <string name="Dev_AdDev_lbl_device_name_caps">Device Name</string>
+
+    <string name="Dev_DevLst_lbl_title_select_device">Select Device</string>
+    <string name="Dev_AdDev_title_add_device">Add Device</string>
+    <string name="Dev_AdDev_lbl_device">Device</string>
+
+
+    <string name="Dev_AdDev_lbl_device_activation_code_caps">Activation Code</string>
+    <string name="Usr_Gen_lbl_device_hint_serial_number">Serial Number</string>
+    <string name="Dev_DevLst_lbl_device_hint_activation_code">Activation Code</string>
+    <string name="Dev_DevLst_lbl_device_vehicles">Vehicles</string>
+
+    <string name="Dev_DevLst_lbl_device_delete">Device(s) deleted</string>
+    <string name="Veh_VehLst_lbl_vehicle_delete">Vehicle(s) deleted</string>
+    <string name="Trp_MyTr_lbl_trip_delete">Trip(s) deleted</string>
+    <string name="Gen_Gen_lbl_delete_content">Sure you want to delete?</string>
+    <string name="Dev_AdDev_lbl_device_default_name">Device No. 1 </string>
+
+    <!--Zone-->
+    <string name="Zon_ZonLst_lbl_zones_title">ZONES</string>
+    <string name="Zon_ZonLst_lbl_radius_format" formatted="false">%s m</string>
+    <string name="Zon_ZonLst_lbl_times_format" formatted="false">%s to %s</string>
+    <string name="Zon_ZonMap_lbl_add_zone_title">Add Zone</string>
+    <string name="Zon_ZonMap_lbl_add_zone_name">Add Zone Name</string>
+    <string name="Zon_ZonDt_lbl_add_zone_title">Add Zone</string>
+    <string name="Zon_Gen_lbl_zone_radius">Radius</string>
+    <string name="Zon_AdZon_Iptxt_zone_type_address">Type Address</string>
+    <string name="Zon_ZonDt_lbl_zone_meter_m">M</string>
+    <string name="Zon_AdZon_lbl_default_radius_zone">150</string>
+    <string name="Zon_ZonDt_lbl_hour_minute_format" formatted="false">%02d:%02d</string>
+    <string name="Zon_ZonDt_lbl_zone_notify_in">Notify me on Entry</string>
+    <string name="Zon_ZonDt_lbl_zone_notify_out">Notify me on Exit</string>
+    <string name="Zon_ZonDt_lbl_zone_edit_from">From</string>
+    <string name="Zon_ZonDt_lbl_zone_edit_to">To</string>
+    <string name="Zon_ZonDt_lbl_zone_edit_times">Time</string>
+    <string name="Zon_ZonDt_lbl_zone_error_no_address">Address not found</string>
+    <string name="Zon_ZonMap_lbl_zone_fetching_address">Fetching address</string>
+    <string name="Zon_AdTr_lbl_zone_fetching_address">Fetching address</string>
+    <string name="Zon_RdeDh_lbl_zone_fetching_address">Fetching address</string>
+    <string name="Zon_ZonMap_lbl_zone_details_title">ZONE DETAILS</string>
+    <string name="Zon_ZonDt_lbl_zone_time_am">AM</string>
+    <string name="Zon_ZonDt_lbl_zone_time_pm">PM</string>
+
+    <string name="Zon_ZonDt_lbl_zone_am">a</string>
+    <string name="Zon_ZonDt_lbl_zone_pm">a</string>
+
+    <string name="Zon_Gen_lbl_cancel_zone">Cancel</string>
+    <string name="Zon_ZonDt_lbl_zone_select_time">Specify Time</string>
+    <string name="Gen_Gen_lbl_no_records_found">No Records Found</string>
+    <string name="Drv_DrvDh_lbl_no_calendar_event">No Calendar Event</string>
+
+
+    <!--Invite User-->
+    <string name="Usr_AdUsr_Iptxt_invite_hint_email">Email</string>
+    <string name="Gen_Gen_hint_phone_number">Phone Number</string>
+
+    <string name="Usr_AdUsr_lbl_invite_menu_invite">Invite</string>
+    <string name="Usr_AdUsr_Iptxt_invite_hint_name">Name</string>
+
+    <string name="Usr_AdUsr_lbl_invite_sent">Your invitation has been sent</string>
+    <string name="Drv_DrvPrf_lbl_license_number" formatted="false">License Number: %s</string>
+    <string name="Usr_AdUsr_lbl_add_user_success">User added successfully</string>
+
+    <string name="Drv_DrvLst_lbl_select_driver_title">Select Driver</string>
+
+    <!--Contact-->
+    <string name="ApI_ContUs_Iptxt_contact_name">Name (Optional)</string>
+
+    <string name="ApI_ContUs_Iptxt_contact_message">Write Message</string>
+    <string name="ApI_ContUs_SBtn_contact_send">Submit</string>
+
+    <string name="ApI_ContUs_lbl_contact_type">Contact Type</string>
+    <string name="ApI_ContUs_lbl_contact_us_sent">Thank you for reaching out! our team will be contacting you shortly</string>
+    <string name="ApI_ContUs_lbl_contact_us_required_message">Message is required</string>
+
+    <!-- Favorites -->
+    <string name="Gen_FavLst_lbl_favorites_title">Favorites</string>
+    <string name="Gen_PlcSrch_lbl_favorites_title">Favorites</string>
+    <string name="Gen_PlcSrch_lbl_palce_hint">Search</string>
+    <string name="Zon_AdTr_lbl_favorites_add_to_favorites_title">Add to favorites</string>
+    <string name="Zon_Adtr_lbl_add_favorites_address_message">Would you like to add this location to favorites?</string>
+    <string name="Gen_PlcSrch_lbl_favorite_delete">Favorite(s) Deleted</string>
+    <string name="Gen_FavLst_lbl_favorite_delete">Favorite(s) Deleted</string>
+    <string name="Zon_ZonMap_lbl_favourite_success_text">Favorite added successfully</string>
+    <string name="Zon_ZonMap_lbl_favourite_success_title">Done Successfully</string>
+    <string name="Zon_ZonMap_lbl_favourtie_name">Favorite</string>
+    <string name="Gen_Gen_Iptxt_enter_name">Enter Name</string>
+
+    <!--Driver-->
+
+    <string name="Gen_Gen_lbl_not_available">Not Available</string>
+    <string name="Gen_Gen_lbl_please_wait">Please Wait</string>
+
+    <!-- Profile -->
+    <string name="Veh_VehPrf_lbl_profile_licence">License Number: </string>
+    <string name="Usr_UsrPrf_lbl_profile_contact_info">Contact Info</string>
+    <string name="Veh_RdeDahHH_lbl_profile_on_vehicle">No Vehicles Found</string>
+    <string name="Veh_VehPrf_lbl_profile_on_document">No Documents Found</string>
+    <string name="User_UserPrf_lbl_profile_title_speed_limit">Speed Limit</string>
+
+
+    <!--Vehicle-->
+    <string name="Veh_Evt_lbl_vehicle_title_view">Vehicle</string>
+    <string name="Veh_AdVeh_Iptxt_vehicle_add_name">Nickname</string>
+    <string name="Veh_AdVeh_Iptxt_vehicle_add_model">Model</string>
+    <string name="Veh_AdVeh_Iptxt_vehicle_add_year">Make Year</string>
+    <string name="Veh_AdVeh_Iptxt_vehicle_add_reg_number">Registration Number</string>
+    <string name="Veh_AdVeh_Iptxt_vehicle_add_device">Add Device</string>
+    <string name="Veh_AdVeh_Iptxt_vehicle_add_driver">Add Driver</string>
+
+    <string name="Gen_Gen_lbl_yes">Yes</string>
+    <string name="Gen_Gen_lbl_no">No</string>
+
+    <string name="Gen_Gen_lbl_save">Save</string>
+    <string name="Gen_Gen_lbl_invite_carlist">Share Car</string>
+    <string name="Veh_DocMod_lbl_document_name">Document Name</string>
+    <string name="Gen_Gen_lbl_invite_user">Family/Friend/Relative</string>
+    <string name="Gen_Gen_lbl_invite_private_user">Private Driver</string>
+
+    <string name="Veh_DocMod_lbl_document_expiry">Expiry Date</string>
+
+    <string name="Veh_DocMod_lbl_document_description">Description</string>
+
+    <string name="Veh_VehPrf_lbl_vehicle_year">Year</string>
+    <string name="Veh_AdVeh_lbl_vehicle_manufacturer">Manufacturer</string>
+    <string name="Veh_DocMod_lbl_vehicle_documents">Documents</string>
+    <string name="Veh_VehPrf_lbl_vehicle_edit_select_model">Select Model</string>
+    <string name="Veh_VehPrf_lbl_vehicle_edit_select_make">Select Manufacturer</string>
+
+
+    <!--Live Tracking-->
+    <string name="Gen_Gen_lbl_error_service_default">Oops. We\'re sorry, but something went wrong</string>
+
+    <string name="Veh_Gen_lbl_driver">Driver</string>
+    <string name="HHD_HHDh_lbl_no_driver">No driver</string>
+    <string name="Gen_Gen_lbl_close">Close</string>
+    <string name="Veh_EvtLst_lbl_not_found">Not Available</string>
+
+    <string name="Veh_UsrPrf_lbl_document_deleted">Document deleted </string>
+    <string name="Veh_DocMod_lbl_document_updated">Document added successfully</string>
+
+    <string name="Dev_AdDev_lbl_device_added">Device added successfully</string>
+    <string name="Dev_AdDev_lbl_device_updated">Device edited successfully</string>
+    <string name="Veh_VehPrf_lbl_vehicle_updated">Vehicle Updated Successfully</string>
+    <string name="Veh_AdVeh_lbl_vehicle_added">Vehicle added successfully</string>
+
+    <!--Householder Dashboard-->
+    <string name="HHD_Gen_CC_dashboard_fuel">Fuel</string>
+    <string name="HHD_Gen_CC_dashboard_temp">Temp</string>
+
+    <string name="Gen_Gen_lbl_km_hr">km/h</string>
+
+    <string name="HHD_Gen_CC_dashboard_top_speed">TOP SPEED</string>
+
+    <string name="HHD_Gen_CC_dashboard_total_score">Total Score</string>
+    <string name="Usr_Gen_lbl_dashboard_fuel_value">%1$d %2$s</string>
+    <string name="Gen_Gen_lbl_dashboard_temperature_value">%1$d %2$s</string>
+    <string name="Veh_Gen_lbl_no_vehicle_found">No Vehicle</string>
+    <string name="Drv_DrvDh_lbl_no_driver_found">No Driver</string>
+
+    <string name="LMT_LvTrk_lbl_no_zones_available">No Zones Available</string>
+
+    <!-- User Alerts -->
+
+    <string name="Veh_AdVeh_lbl_select_year">Select Year</string>
+
+    <!-- Setting -->
+    <string name="Usr_DrvDh_lbl_view_all">View All</string>
+
+    <string-array name="Usr_UsrAl_lbl_select_fuel_threshold">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+    </string-array>
+
+    <!-- Setting -->
+    <string name="Drv_DrvAlTb_lbl_tab_behaviour_violation">Behaviour Violations</string>
+    <string name="Drv_DrvAlTb_lbl_tab_zone_violation">Zone Violation </string>
+    <string name="Usr_DrvAlTb_lbl_driver_alert">Driver Alerts</string>
+
+    <string name="User_User_lbl_family">FAMILY</string>
+
+    <string name="Set_Sttg_lbl_select_option">Select Option</string>
+    <string name="Gen_Gen_lbl_gps_network_not_enabled">Please turn on the location service at your phone.</string>
+    <string name="Gen_Gen_lbl_select_image">Select image</string>
+
+    <string name="Gen_Gen_lbl_value_with_percentage" formatted="false">%1$s %%</string>
+    <string name="Dev_AdDev_lbl_permission_camera">You need camera permission to start QR Code scanner</string>
+
+    <string name="Gen_Gen_lbl_camera_request_permission"> Motorna requires camera access. Kindly go to the App settings and allow it</string>
+    <string name="Gen_Gen_lbl_contact_request_permission"> Requires contact access. Kindly go to the App settings and allow it</string>
+    <string name="Gen_Gen_lbl_location_request_permission">This feature requires location access. Kindly go to application settings and allow location access for this feature to work correctly.</string>
+    <string name="Gen_WbVw_lbl_no_internet_text"><html><body><h1>No internet connection</h1></body></html></string>
+
+    <!-- Guidance -->
+    <string name="guidance_emergency_contact">Emergency</string>
+    <string name="Gui_Gui_lbl_guidance_hospitals">Hospitals</string>
+    <string name="Gui_Gui_lbl_guidance_workshops">Workshops</string>
+    <string name="Gui_Gui_lbl_guidance_apps">Apps</string>
+    <string name="Gui_Gui_lbl_guidance_location_not_found">Turn on location services to access near by locations</string>
+
+    <!-- Emergency Contacts-->
+    <string name="Gen_Gen_lbl_driver">Driver :</string>
+
+    <string name="fabTagKey">fabTagKey</string>
+    <string name="Zon_ZonDt_lbl_24_hours">24 Hrs</string>
+    <string name="SgIn_Land_SBtn_sign_in">Sign In/Up</string>
+    <string name="HHD_Gen_CC_battery">Battery</string>
+    <string name="HHD_Gen_txt_label_profile">My Profile 1</string>
+    <string name="Veh_VehDh_lbl_battery_alert">Warning</string>
+    <string name="Gen_Gen_lbl_dashboard_battery_value">%1$s %2$s</string>
+
+    <!--Rider Dashboard -->
+    <string name="Trp_AdTr_lbl_pick_location">Pick Location</string>
+    <string name="Gen_Gen_lbl_none">None</string>
+    <string name="Rde_Gen_lbl_title_rider_dashboard">Rides</string>
+    <string name="Rde_RdeDh_lbl_title_rider_dashboard_ride">Ride</string>
+    <string name="Trp_Adtr_lbl_title_create_trip">New Trip</string>
+    <string name="Rde_RdeDh_SBtn_schedule_ride">Schedule Ride</string>
+    <string name="Rde_RdeDh_SBtn_request_ride">Confirm Pickup</string>
+    <string name="Rde_RdeDh_SBtn_order_pickup">Order Now</string>
+    <string name="Gen_Gen_lbl_request_ride_accepted">%1$s has accepted the ride request. Would you like to continue with you ride?</string>
+    <string name="Rde_RdeDh_lbl_title_schedule_ride_repeat">Repeat</string>
+    <string name="Rde_RdeDh_lbl_title_schedule_ride_date">Date</string>
+    <string name="Trp_PlcSrch_lbl_select_location_on_map">Select from Map </string>
+    <string name="LMT_Gen_lbl_location_on_map">Select a location on map</string>
+    <string name="Trp_MyTrDt_lbl_select_days">Select Days</string>
+    <string name="Rde_TrDt_lbl_choose">Choose</string>
+    <string name="Rde_RdeDh_lbl_choose">Choose</string>
+    <string name="Rde_Gen_lbl_dialog_title_request_accepted">Request Accepted</string>
+    <string name="Rde_RdeDh_lbl_cancel_pickup">Cancel Pickup</string>
+    <string name="Rde_RdeDh_lbl_ride_intended">Is the ride intended for you?</string>
+    <string name="Rde_RdeDh_lbl_start_date_error">Start date should be earlier than end date.</string>
+    <string name="no_drivers_available">No drivers available</string>
+    <string name="Rde_RdeDh_lbl_duration">%d mins</string>
+
+    <string name="Gen_Gen_lbl_next">Next</string>
+    <string name="Gen_Gen_lbl_sure">Yes, Sure</string>
+
+
+    <string-array name="repeat_days">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string name="Set_AdEmCt_Iptxt_contact_description">Description</string>
+    <string name="ApDr_Gen_lbl_user_rider">Rider</string>
+
+    <string name="Rde_RdeDh_lbl_start_date">Start date</string>
+    <string name="Rde_RdeDh_lbl_end_date">End date</string>
+
+    <!--Ride Status -->
+    <string name="Rde_TrDt_SBtn_arrived_ride">Arrived</string>
+    <string name="Rde_RdeStu_SBtn_arrived_ride">Arrived</string>
+    <string name="Rde_TrDt_SBtn_start_ride">Start</string>
+    <string name="Rde_RdeStu_SBtn_start_ride">Start</string>
+    <string name="Rde_TrDt_SBtn_end_ride">End</string>
+    <string name="Rde_RdeStu_SBtn_end_ride">End</string>
+    <string name="Rde_RdeStu_SBtn_ride_decline">Decline</string>
+    <string name="Rde_RdeStu_SBtn_ride_accept">Accept</string>
+    <string name="Rde_RdeReq_lbl_ride_request">Ride Request</string>
+    <string name="Rde_RdeStu_lbl_response_time_remaining">Sec. remaining</string>
+    <string name="Rde_RdeStu_lbl_pickup_text">Pickup</string>
+    <string name="Rde_RdeStu_SBtn_ride_confirmation_pending">Rider confirmation pending</string>
+    <string name="Rde_RdeStu_lbl_ride_scheduled_message">Your ride has been scheduled</string>
+    <string name="Rde_RdeStu_lbl_no_response_from_rider_message">The ride has expired due to no response from the rider.</string>
+
+    <!-- Event -->
+    <string name="Veh_Evt_lbl_event_threshold_title_new">Mileage Value</string>
+    <string name="Veh_AdEvt_lbl_event_deadline_date_title">Deadline Date</string>
+    <string name="Veh_Evt_lbl_event_days_threshold_title">Days Threshold</string>
+    <string name="Veh_Evt_lbl_event_threshold_mileage_title">Mileage Threshold</string>
+    <string name="Trp_MyTr_lbl_event_date_title">Date</string>
+    <string name="Veh_Evt_lbl_event_mark_completed_btn_title">Mark as Completed</string>
+    <string name="Veh_VehPrf_lbl_delete_event_message">Event deleted </string>
+    <string name="Veh_Evt_lbl_add_event_message">Event added successfully</string>
+    <string name="Veh_Evt_lbl_event_details_header">Event details</string>
+    <string name="Veh_Evt_lbl_event_select_type_title">Based On</string>
+    <string name="Veh_Evt_lbl_event_select_category_title">Type</string>
+    <string name="Gen_Gen_lbl_view_all_events">View All</string>
+    <string name="Veh_Evt_lbl_message_confirm_create_event">Would you like to set another event?</string>
+    <string name="title_select_type">Select Type</string>
+    <string name="title_select_option">Select Option</string>
+
+
+    <string name="Veh_AdEvt_lbl_date_based">Date Based</string>
+    <string name="Veh_EvtLst_lbl_mileage_based">Mileage Based</string>
+    <string name="Veh_AdEvt_lbl_both_based">Both</string>
+
+
+    <string-array name="select_type">
+        <item>@string/Veh_AdEvt_lbl_date_based</item>
+        <item>@string/Veh_EvtLst_lbl_mileage_based</item>
+        <item>@string/Veh_AdEvt_lbl_both_based</item>
+    </string-array>
+
+
+    <string name="Veh_Evt_lbl_event_updated">Event edited successfully</string>
+    <string name="Gen_Gen_lbl_km">km</string>
+    <string name="Trp_TrDt_lbl_fuel_consumption_litres">L</string>
+    <string name="Trp_TrDt_lbl_avg_speed">Avg. Speed</string>
+    <string name="Rde_RdeDt_lbl_max_speed">Max Speed</string>
+    <string name="Rde_RdeDt_lbl_fuel_consumption">Fuel Consumption</string>
+    <string name="Rde_RdeDt_lbl_distance">Distance</string>
+    <string name="Gen_Gen_lbl_owner">Owner : </string>
+    <string name="Gen_Gen_lbl_driver_title">Driver : </string>
+    <string name="Veh_RdeDt_lbl_vehicle">Vehicle :</string>
+    <string name="Drv_UsrPrf_lbl_driver_availability">Availability</string>
+
+    <string name="Trp_TrDt_lbl_trip">Trip</string>
+    <string name="Trp_TrDt_lbl_trip_detail">Trip</string>
+    <string name="Trp_TrDt_lbl_history">Trips History</string>
+    <string name="Subs_Payment_lbl__SA_title">Your subscription</string>
+    <string name="Subs_Payment_lbl__SA_details">Payment details</string>
+    <string name="Subs_Payment_lbl__SA_inf">Our payment process is secure and reliable. Your personal and payment information is encrypted with a reliable encryption system. \n We do not store any payment card information on our system.</string>
+    <string name="Subs_Payment_lbl_App_title">App</string>
+    <string name="Trp_TrDt_lbl_ongoing_trip">On Going</string>
+    <string name="Trp_MyTrDt_lbl_trip_my_detail">Trip</string>
+    <string name="Trp_TrDt_lbl_ride_completed_tripdetailview">Ride</string>
+
+    <string name="Gen_Gen_lbl_select">Select</string>
+
+    <!--Settings-->
+    <string name="Usr_UsrPrf_lbl_change_phone_number">Change Phone Number</string>
+
+
+    <string-array name="Set_Sttg_lbl_language_options">
+        <item>العربية</item>
+        <item>English</item>
+    </string-array>
+
+    <!--trip-->
+    <string name="Trp_MyTrDt_lbl_trip_name">Name</string>
+    <string name="Trp_TrDt_lbl_trip_date">Recurrence and Date</string>
+    <string name="Trp_MyTr_Iptxt_enter_name_here">Enter Name Here</string>
+    <string name="Trp_MyTrDt_lbl_trip_repeat">Repeat</string>
+    <string name="Trp_MyTrDt_lbl_trip_end_date">End Date</string>
+    <string name="Trp_MyTrDt_lbl_trip_start_date">Start Date</string>
+    <string name="Gen_Gen_Iptxt_enter_here">Enter Here</string>
+    <string name="Trp_AdTr_SBtn_trip_options">Trip Options</string>
+    <string name="Gen_Gen_lbl_hrs">Hrs</string>
+    <string name="Trp_Gen_lbl_zero_hrs">00:00 Hrs</string>
+    <string name="Drv_DrvDh_CC_idle_time">Idle Time</string>
+    <string name="Trp_TrMap_lbl_total_events">Total Events</string>
+    <string name="Veh_TrMap_lbl_history">History</string>
+    <string name="Veh_VehHist_lbl_history">History</string>
+    <string name="Veh_VehHist_lbl_header_title">Vehicle History</string>
+    <string name="Trp_Gen_lbl_origin">Origin</string>
+    <string name="Gen_Gen_Iptxt_destination">Destination</string>
+    <string name="Trp_TrDt_SBtn_create_share_trip">Create and Share Trip</string>
+    <string name="Trp_MyTrDt_SBtn_trip_edit_title">Save and Share Trip</string>
+    <string name="Trp_MyTrDt_lbl_shared_with">Shared With</string>
+
+    <string name="Trp_Trp_sunday_date">Sunday</string>
+    <string name="Trp_Trp_monday_date">Monday</string>
+    <string name="Trp_Trp_lbl_tuesday_date">Tuesday</string>
+    <string name="Trp_Trp_lbl_wednesday_date">Wednesday</string>
+    <string name="Trp_Trp_thursday_date">Thursday</string>
+    <string name="Trp_Trp_friday_date">Friday</string>
+    <string name="Trp_Trp_saturday_date">Saturday</string>
+
+    <string name="Gen_Gen_lbl_comma">,</string>
+    <string name="Trp_TrDt_lbl_days">Days</string>
+    <string name="Gen_Gen_lbl_default_time_available">12:00 am</string>
+    <string name="Rde_RdeDhHH_lbl_ride_requests">Ride Requests</string>
+    <string name="Rde_RdeReq_lbl_status_caps">Status</string>
+    <string name="Rde_RdeStu_lbl_duration_caps">Duration</string>
+    <string name="Rde_RdeReq_lbl_duration_caps">Duration</string>
+    <string name="Rde_RdeReq_lbl_request">Request</string>
+    <string name="Rde_RdeDhHH_lbl_rider_dashboard">Rider Dashboard</string>
+    <string name="Rde_RdeReqLst_lbl_ride_requests_title">Ride Requests</string>
+
+    <string name="Rde_RdeDh_lbl_pending">Pending</string>
+    <string name="Rde_Gen_lbl_driver_accepted">Driver Accepted</string>
+    <string name="Rde_RdeStu_lbl_rider_accepted">Rider Accepted</string>
+    <string name="Rde_RdeStu_lbl_rider_rejected">Rider Rejected</string>
+    <string name="Rde_RdeStu_lbl_ride_completed">Completed</string>
+    <string name="Rde_RdeStu_lbl_rider_expired">Ride Expired</string>
+    <string name="Rde_RdeStu_lbl_ride_canceled">Ride Canceled</string>
+    <string name="Rde_RdeStu_lbl_ride_rejected">Ride Rejected</string>
+    <string name="Rde_RdeDhHH_lbl_no_pending_rides">No Rides Available</string>
+    <string name="Rde_RdeDhHH_lbl_no_rides_available">No Rides Available</string>
+    <string name="Trp_RdeDt_lbl_start_trip">Start Trip</string>
+
+    <string name="Rde_RdeLvTrk_lbl_arrival_duration">Arrival -</string>
+    <string name="Rde_RdeLvTrk_lbl_arrival">Arrival</string>
+    <string name="Veh_AdDev_lbl_device_hotspot">Device Hotspot</string>
+    <string name="Veh_AdDev_lbl_device_enable">Enable Device</string>
+    <string name="Dev_AdDev_lbl_on">on</string>
+    <string name="Dev_AdDev_lbl_off">off</string>
+    <string name="Dev_AdDev_lbl_enable_hotspot">Enable Hotspot</string>
+
+    <!-- User Profile From Side Menu -->
+    <string name="Usr_UsrPrf_lbl_user_updated">Profile has been updated successfully</string>
+    <string name="Gen_Gen_lbl_view">View</string>
+    <string name="Trp_TrDt_lbl_request_ride">Request ride</string>
+    <string name="Gen_Gen_SBtn_add_destination">Add Destination</string>
+    <string name="Drv_DrvDh_lbl_minutes">Minutes</string>
+    <string name="Drv_DrvDh_lbl_maximum_speed">Max Speed</string>
+    <string name="HHD_Gen_CC_average_speed">Average Speed</string>
+    <string name="Trp_Notf_lbl_trip_started">Trip Started</string>
+    <string name="Trp_Gen_lbl_trip_ended">Trip Ended</string>
+    <string name="Rde_Notf_lbl_driver_arrived">Driver Arrived</string>
+
+    <!-- Hotspot COnfiguration -->
+
+    <string name="Gen_Gen_lbl_nine_plus">99+</string>
+
+    <string name="Gen_Gen_lbl_dialog_no">No</string>
+    <string name="Veh_Gen_lbl_event_alert_title">Event alert!</string>
+    <string name="Veh_Gen_lbl_event_alert_body">Based on your vehicle’s mileage data and current date, you’ll receive an automatic notification when your next service appointment is due.</string>
+
+    <string name="Rde_RdeStu_lbl_empty_distance"> - km </string>
+    <string name="Rde_RdeStu_lbl_empty_duration"> - \n mins </string>
+    <string name="Usr_DrvDh_lbl_violations">Violations</string>
+    <string name="Veh_DocMod_lbl_document_details">Document details</string>
+    <string name="Zon_ZonDt_lbl_zone_name">Zone Name</string>
+    <string name="Gen_Land_SBtn_retry_config_call">Retry</string>
+    <string name="Gen_Land_lbl_retry_config_error_message">You should be connected to the Internet, please check your internet settings.</string>
+
+    <string name="Veh_EvtLst_lbl_select_days_threshold">Select Days Threshold</string>
+    <string name="Veh_Evt_lbl_zero">0</string>
+
+    <string name="Veh_Evt_lbl_days">Days</string>
+
+    <string name="ApI_Intr_lbl_intro_skip">Skip</string>
+    <string name="ApI_Intr_lbl_intro_next">Next</string>
+    <string name="ApI_Intr_lbl_intro_done">Start</string>
+
+    <string name="Gen_Intr_lbl_intro_gif_id" formatted="false">screen_%d_%s</string>
+
+    <!-- new sign in sign up screen -->
+    <string name="SignIn_SignIn_lbl_device_serial_number">Device Serial Number</string>
+    <string name="SignIn_SignIn_lbl_enter">Enter</string>
+
+    <string name="SignIn_SignIn_lbl_resent_pin">Resend OTP </string>
+    <string name="SignIn_SignIn_lbl_phone">Phone Number</string>
+    <string name="SignIn_SignIn_lbl_enter_phone">Enter your Phone</string>
+    <string name="SignIn_SignIn_lbl_puk_phone">Enter PUK1</string>
+    <string name="SignIn_SignIn_lbl_puk_phone_3">Enter PUK1</string>
+    <string name="SignIn_SignIn_lbl_go">Go</string>
+    <string name="SignIn_SignIn_lbl_verify_pin">Enter OTP</string>
+    <string name="SignIn_SignIn_lbl_pin_lock">SignIn_SignIn_lbl_pin_lock</string>
+    <string name="SignIn_SignIn_lbl_pin">OTP</string>
+    <string name="SignIn_SignIn_lbl_pin_inf">Enter the OTP code sent by email or on the phone</string>
+    <string name="SignIn_SignIn_lbl_add_device_title">Enter Serial Number &amp; Activation Code provided in user guide in the box</string>
+    <string name="SignIn_SignIn_lbl_add_device_not_find">Can\'t find it? </string>
+    <string name="SignIn_SignIn_lbl_add_device_find">Click Here</string>
+    <string name="SignIn_SignIn_lbl_add_device_donnot_have">Don\'t have a device yet?</string>
+
+
+    <!-- HouseHolder Dashboard screen -->
+    <string name="Gen_Gen_lbl_motorna">Motorna</string>
+    <string name="Gen_Gen_lbl_alerts">Alerts</string>
+
+    <string name="HHD_HHDh_current_status">CURRENT STATUS</string>
+    <string name="HHD_HHDh_total_daily_summary">DAILY SUMMARY</string>
+    <string name="HHD_HHDh_engine_status">ENGINE STATUS</string>
+
+    <!-- Vehicle alerts screen -->
+    <string name="Veh_ALt_lbl_alerts">ALERTS</string>
+    <string name="Veh_ALt_lbl_latest">Latest</string>
+    <string name="Veh_ALt_lbl_previous">Previous</string>
+
+
+    <string name="Veh_VehHist_lbl_title">HISTORY</string>
+    <string name="Veh_VehCalendar_lbl_title">Calendar</string>
+    <string name="Veh_Maintnc_notif_lbl_title">Maintenance Notification</string>
+    <string name="Veh_VehHist_lbl_events_title">Events</string>
+    <string name="Trp_TrDt_lbl_upcoming_trip">Upcoming</string>
+
+    <string name="ApDr_ApDr_SBtn_home">Home</string>
+    <string name="ApDr_ApDr_SBtn_check_in">Check In</string>
+    <string name="ApDr_ApDr_SBtn_bracelet">Bracelet</string>
+    <string name="ApDr_ApDr_SBtn_emergency">Emergency</string>
+    <string name="ApDr_ApDr_SBtn_family">Family</string>
+    <string name="ApDr_ApDr_SBtn_motorna_wifi">Motorna Wifi</string>
+    <string name="ApDr_ApDr_SBtn_road_assistance">Road Assistance</string>
+    <string name="ApDr_ApDr_SBtn_support">Technical Support</string>
+    <string name="ApDr_ApDr_SBtn_store">Store</string>
+    <string name="WebV_WebV_lbl_store">Store</string>
+    <string name="WebV_WebV_lbl_FAQs">FAQ\'s</string>
+
+    <string name="Veh_DhAl_vehicle_alerts_threshold">Alerts Threshold : </string>
+
+    <string name="Veh_DhAl_vehicle_save_changes">Sure you want to save changes?</string>
+    <string name="Veh_DhAl_vehicle_document_notification_lbl">Documents Expiry Notification</string>
+    <string name="Veh_DhAl_vehicle_maintenance_notification_lbl">Maintenance Notifications</string>
+    <string name="Veh_VehWif_lbl_wifi_title">Motorna WiFi</string>
+
+    <string name="ContUs_ContUs_lbl_attach_image">Attach Image</string>
+    <string name="Gui_Gui_emergency_contact_tab">Emergency</string>
+    <string name="Zon_Zon_lbl_zone_details_screen_title">Zone Details</string>
+    <string name="ApI_ContUs_lbl_screen_title">Contact US</string>
+
+    <string name="Zon_Zon_lbl_zone_type_exit">Zone Exit</string>
+    <string name="Zon_Zon_lbl_zone_type_entry">Zone Entry</string>
+    <string name="Zon_Zon_lbl_new_zone_title">NEW ZONE</string>
+
+    <string name="Zon_Zon_lbl_select_current_location">Or Your Current Location</string>
+    <string name="Zon_Zon_lbl_select_Vehicle_location">Or Your Motorna Vehicles Location</string>
+    <string name="Zon_Zon_lbl_select_favorite_location">Or From Favorite List</string>
+    <string name="Zon_Zon_lbl_search_vehicle_position_empty">Vehicle location not found</string>
+
+
+    <string name="ApI_ContUs_lbl_in_progress_status">In Progress</string>
+    <string name="ApI_ContUs_lbl_completed_status">Completed</string>
+    <string name="ApI_ContUs_lbl_item_created_time">Created:</string>
+    <string name="ApI_ContUs_lbl_item_completed_time">Completed</string>
+    <string name="ApI_ContUs_lbl_item_ticket_number">Ticket Number:</string>
+
+    <string name="Veh_ALt_lbl_search_pop_up_error_time">End time should be later start time</string>
+
+
+    <string name="Veh_ALt_lbl_filter_alert_title">FILTERS</string>
+    <string name="Veh_ALt_lbl_filter_alert_start_date">Start Date</string>
+    <string name="Veh_ALt_lbl_filter_alert_end_date">End Date</string>
+    <string name="Veh_ALt_lbl_filter_alert_reset_label">Reset</string>
+    <string name="Veh_ALt_lbl_filter_alert_show_result">Show Results</string>
+    <string name="Veh_ALt_lbl_filter_alert_other_list_title">Other Alerts</string>
+    <string name="Veh_ALt_lbl_filter_alert_in_zone">In-Zone Alert</string>
+    <string name="Veh_ALt_lbl_filter_alert_out_zone">Out-Zone Alert</string>
+    <string name="Veh_ALt_lbl_filter_alert_zone_alert">Zone Alerts</string>
+    <string name="Zon_ZonDt_lbl_zone_error_no_vehicle_selected" formatted="false">No vehicle selected</string>
+
+    <string name="Veh_AddVeh_lbl_driver_title">Add Driver</string>
+
+    <string name="User_InvUser_lbl_contact_info">New Contact Info</string>
+
+    <string name="Usr_UsrPrf_lbl_profile_notif_settings">Push Notification Settings</string>
+
+    <string name="Veh_VehPrf_lbl_profile_no_event">No Events Found</string>
+
+    <string name="Alrt_ALrt_lbl_profile_notif_settings">Notification Settings</string>
+
+    <string name="Usr_UsrPrf_lbl_change_phone_number_dialog_field">My new phone No.</string>
+
+    <string name="Usr_UsrPrf_lbl_change_phone_number_dialog_empty_filed">Field is required</string>
+
+    <string name="Usr_UsrPrf_lbl_otp_code_dialog_title">Enter OTP</string>
+    <string name="Veh_VehAlt_lbl_no_alerts_found">No alerts</string>
+
+    <string name="Usr_UsrPrf_lbl_otp_counter">00:%1$d</string>
+
+    <string name="Veh_VehPrf_lbl_speed_limit_dialog_title">Select speed limit</string>
+
+    <string name="Gen_Gen_lbl_error_country_code">country code is incorrect</string>
+
+    <string name="Veh_VehWif_lbl_empty_password">Please enter password</string>
+    <string name="Veh_Wifi_lbl_password_hint">Password</string>
+    <string name="Veh_VehLst_lbl_vehicles_title">MOTORNA</string>
+    <string name="Sub_SubList_lbl_subscription_title">Subscription</string>
+
+    <string name="HHD_HHDh_lbl_no_vehicle_found">no vehicle found</string>
+
+    <string name="Pay_Payfort_lbl">SAR</string>
+
+    <string name="Pay_Payfort_Date_lbl">1 year </string>
+    <string name="Pay_Payfort_Date_month_lbl">6 months </string>
+    <string name="Pay_Payfort_item_lbl">Serial Number :</string>
+    <string name="Pay_Payfort_item_car_name">Car Name :</string>
+    <string name="Pay_Payfort_item_start_date_lbl">Start Date :</string>
+    <string name="Pay_Payfort_item_end_date_lbl">End Date :</string>
+    <string name="Usr_AdUsr_Iptxt_valid_email">Please enter a valid email address</string>
+    <string name="Usr_Subsc_Iptxt_messg_expiry"> day(s) remaining in expiry.</string>
+    <string name="Sub_SubList_toolbar_subscription_title">SUBSCRIPTION</string>
+    <string name="Sub_SubList_toolbar_subscription_inf">VAT exclusive</string>
+    <string name="Sub_SubList_toolbar_subscription_pay_method">mada bank card / Credit / Debit Card</string>
+    <string name="Householder_Livtr_List_mesg_bad_cnx">Experiencing Poor connection issues…</string>
+    <string name="App_Version_UsrPr_txt">Please download the new version</string>
+    <string name="Usr_UsrPr_empty_name_field">User name is required</string>
+    <string name="Usr_UsrPr_dtc_name_messg">Motorna has detected an issue in your Engine  </string>
+    <string name="Usr_UsrPr_sub_name_lbl">Subscription Alert!</string>
+    <string name="Usr_UsrPr_vehicle_not_found_lbl">Please ensure your device is connected </string>
+    <string name="Usr_UsrPr_device_expiry_14lbl">Days left for expiry. please renew your subscription </string>
+    <string name="Usr_UsrPr_device_expiry_7_lbl">Days left for expiry. please renew your subscription </string>
+    <string name="Usr_UsrPr_device_expiry_0_lbl">Your subscription has EXPIRED! Please renew </string>
+    <string name="Usr_UsrPr_device_30min_connectivity">Check your device connectivity please </string>
+    <string name="Usr_UsrPr_renew_expiry_lbl">Renew Now</string>
+    <string name="Usr_UsrPr_info_expiry_lbl">Your Subscription has expired </string>
+    <string name="Gen_Land_lbl_terms_message">By Signing Up/In, You read and agree to motorna</string>
+    <string name="Gen_Land_lbl_terms2_message"> <u>Terms and Conditions</u> and the</string>
+    <string name="Gen_Land_lbl_warranty_message"> <u>Warranty and Refund Policies.</u></string>
+    <string name="Gen_Land_lbl_terms_config">Terms and Conditions</string>
+    <string name="Gen_Land_lbl_warranty_config">Warranty and Refund Policies</string>
+    <string name="Gen_Land_lbl_price">Price:</string>
+    <string name="Gen_Land_lbl_vat">VAT 5% :</string>
+    <string name="Gen_Land_lbl_total">Total:</string>
+    <string name="Gen_Land_lbl_year">SAR/Year</string>
+    <string name="Gen_Land_lbl_yesterday">Yesterday</string>
+    <string name="Gen_Land_lbl_today">Today</string>
+
+    <string name="Pay_Payfort_Iptxt_add_hint_email">Please Add your Email</string>
+    <string name="SignIn_SignIn_lbl_language">عربي</string>
+
+
+    <string name="setting_restart_app_required_label">Restart Required</string>
+    <string name="setting_restart_app_confirmation">This requires restarting the application. Are you sure you want to close the app now?</string>
+
+    <string name="register_successfully">Your FingerPrint is successfully registered</string>
+    <string name="face_not_saved">Please note that your FingerPrint will not be shared or stored in any server expect your phone.</string>
+    <string name="face_id_reg">FingerPrint registration</string>
+    <string name="verify_identity">Please verify your identity</string>
+    <string name="note_face_id">* Please note that your FingerPrint will not be shared or stored in any server expect your phone.</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+
+
+    <string name="HHD_HHDh_first_sign_up_start_button">Start</string>
+    <string name="HHD_HHDh_first_sign_up_screen_title">Sign Up</string>
+    <string name="HHD_HHDh_first_sign_up_next_button">Next</string>
+    <string name="HHD_HHDh_first_sign_up_content">Welcome to the STAY HOME application launched by the company to ensure your safety and health from COVID-19 VIRUS.</string>
+    <string name="HHD_HHDh_first_sign_up_content_two">Please start the Sign Up Process which will include adding your home location and FingerPrint to the application.</string>
+
+    <string name="HHD_HHDh_diagnose_questions">Self Diagnose Questions</string>
+    <string name="HHD_HHDh_guidelines_message">To keep your self and others healthy. \n This survey aims to acquaint you with the best guidelines</string>
+
+    <string name="HHD_HHDh_cough_status">Do you have Cough ?</string>
+    <string name="HHD_HHDh_headache_status">Do you have Headache ?</string>
+    <string name="HHD_HHDh_fever_status">Do you have High fever ?</string>
+    <string name="HHD_HHDh_breath_status">Do you have Shortness of breath ?</string>
+    <string name="HHD_HHDh_no_suffer_status">I do not suffer from any of the above symptoms</string>
+    <string name="HHD_HHDh_register_location_message">As per the authority instruction and for your safety, Please register your Home location</string>
+    <string name="HHD_HHDh_sur_quarantine_message">Wait please, Are you sure you have finalized your self-quarantine.</string>
+    <string name="HHD_HHDh_continue_quarantine_message">Sorry, you should continue using the app until the self-quarantine</string>
+    <string name="HHD_HHDh_register_new_location_message">Please select your real home location by clicking on the map</string>
+    <string name="HHD_HHDh_location_saved_message">Your home location was stored successfully !</string>
+    <string name="HHD_HHDh_location_verification_message">Are you sure, this is your home \n location ?</string>
+    <string name="support_screen_send_button">Send</string>
+    <string name="support_screen_title">Contact Technical Support if you have any issue with the application</string>
+    <string name="emergency_screen_call_button">Call Emergency</string>
+    <string name="emergency_screen_need_help_lbl">NEED HELP</string>
+    <string name="emergency_screen_symptoms_lbl">If you have any symptoms :</string>
+    <string name="emergency_screen_cough_lbl">COUGH</string>
+    <string name="emergency_screen_shortness_of_breath_lbl">SHORTNESS OF BREATH</string>
+    <string name="emergency_screen_headache_lbl">HEADACHE</string>
+    <string name="emergency_screen_fever_lbl">FEVER</string>
+    <string name="emergency_screen_assistance_lbl">And you need assistance, please</string>
+    <string name="Gen_Gen_lbl_loader_wait">Please wait</string>
+    <string name="instructions_heath">As per as the instructions of company policy,\n during the quarantine period</string>
+    <string name="cobfirm_identity">You must confirm your Identity regularly. The data will be stored on your phone.</string>
+    <string name="are_there">Hi, are you there ?</string>
+    <string name="am_here">Yes I \'am here</string>
+    <string name="success_check_in">You are successfully checked in.</string>
+    <string name="stay_home">Please Stay home and be safe.</string>
+    <string name="failed_chech_in">Your check in fails !</string>
+    <string name="time_checking">Remaining time to Check In.</string>
+    <string name="try_again">Try Again</string>
+    <string name="recognize">Recognize</string>
+    <string name="stay_at_home">1. Stay at home</string>
+    <string name="keep_phone">2. Keep your Phone ON and had enough battery all the time</string>
+    <string name="keep_stay_home">3. Keep STAYHOME application working</string>
+    <string name="keep_gps">4. Keep your GPS, Wifi and Bluetooth activated</string>
+    <string name="agreed">Agreed</string>
+    <string name="myagreed">I agree</string>
+    <string name="success_signed_up">You are successfully Signed Up. </string>
+    <string name="todays">Today\'s tip</string>
+    <string name="desc_about">This app is dedicated to help to overcome the Corona Virus and it is an initiative from the tech industry to help the medical authorities in their fight.\n \n
+Machinestalk company (www.machinestalk.com), based in Riyadh Saudi Arabia developed this app and share it with medical authorities in Saudi Arabia or any country world wide as part of its social responsibilities for all humans in partnership with Attaa Digital Initiative created by Ministry of Communication and Information Technologies in Saudi Arabia.\n \n
+Machinestalk is the first Saudi IoT VNO specialized in providing smart solutions such as smart health, smart transportation, smart cities and smart industries.</string>
+    <string name="desc_terms"> To assure a convenient, secure environment and
+experience for all of our users, STAYHOME has
+established these terms of use to explain what you can expect from you in connection with the of our application. \n \n
+STAYHOME collects your location data and other
+personal information you provide to machinestalk to insure your safety during self-quarantine
+periods. \n \n
+Please read the Terms &amp; Conditions (T&amp;Cs) carefully. \n \n
+• No multiple  Finger ID \n
+• Keep WIFI, BLUETOOTH and GPS always ON \n
+• If you have any technical problem,please contact our support. \n \n
+ </string>
+    <string name="terms_label"> By Choosing I Agree, you consent to STAYHOME\'s use of your data as described above.</string>
+
+    <string name="self_quarantaine_title">\"Self-quarantaine, what is it?\"</string>
+    <string name="self_quarantaine_desc">Stay in a separate room from your family and use a separate bathroom if available.\n \nAlways wear a face mask if you must be around other people.</string>
+    <string name="days_left">DAYS LEFT \n IN QUARANTAINE </string>
+    <string name="title_activity_check_in">CheckInActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+c
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="attention">Attention !</string>
+    <string name="alert_ok">Okay</string>
+    <string name="bt_contact_support">Contact Us</string>
+    <string name="alert_blue_msg">You Have disactivate your BLUETOOTH. Please check your BLUETOOTH.</string>
+    <string name="alert_battery_msg">Your battery is running low, please recharge your kindle .</string>
+    <string name="alert_bracelet_msg">Your bracelet is not detected, please make sure that your bracelet still close to your phone .</string>
+    <string name="alert_wifi_msg">You have disactivate your WIFI.Please check your parameters</string>
+    <string name="alert_gps_msg">You gps is off. Please keep your  GPS always ON.</string>
+    <string name="alert_location_msg">You are out of your quarantined zone limits.\n Please go back now !</string>
+    <string name="alert_finger_changed_msg">Your FingerPrint has been changed, please contact support to initiate your FingerPrint.</string>
+    <string name="emergency">I \'am on emergency</string>
+    <string name="alert_msg_device_registred">Sorry, you are already registered with another device.</string>
+    <string name="ble_uuid">E2C56DB5-DFFB-48D2-B060-D0F5A71096E0</string>
+    <string name="Gen_Gen_lbl_contact_us">Contact Us</string>
+    <string name="alert_msg_wrong_location">If your home location is wrong \n  and you want to change it,\n  Please contact the technical support team</string>
+
+
+    <string name="bracelet_fragment_title">Add Bracelet</string>
+    <string name="bracelet_fragment_second_title">Add bracelet manually</string>
+    <string name="bracelet_fragment_third_title">Bracelet Status</string>
+    <string name="bracelet_fragment_add_bracelet_first_description">For your safety, \nPlease make sure your bracelet is connected and stay close to your phone.</string>
+    <string name="bracelet_fragment_add_bracelet_second_description">Please enter your bracelet mac address</string>
+    <string name="bracelet_fragment_add_bracelet_third_description">Bracelet mac address</string>
+    <string name="bracelet_fragment_add_bracelet_dialog_title">Please add your bracelet</string>
+    <string name="bracelet_fragment_add_manually_label">Add manually</string>
+    <string name="bracelet_fragment_scan_label">Scan</string>
+    <string name="bracelet_fragment_dialog_confirmation_title_label">Are you sure this is the right mac address ?</string>
+    <string name="bracelet_fragment_dialog_confirmation_button_label">Yes, Sure</string>
+    <string name="bracelet_fragment_dialog_success_mrssage_label">Connected</string>
+    <string name="bracelet_fragment_dialog_error_mrssage_label">Sorry, please verify your bracelet mac address</string>
+
+    <string name="beacon_screen_title">Nearby Bluetooth devices</string>
+
+</resources>

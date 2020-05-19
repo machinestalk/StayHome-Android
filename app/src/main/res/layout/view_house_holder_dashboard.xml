@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/toolbar"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentBottom="true">
+
+    <com.machinestalk.stayhome.components.MyMapTracking
+        android:id="@+id/view_dashboard_map_tracking"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_step"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/circle_step1" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/view_add_zone_search_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_step"
+            android:layout_margin="10dp"
+            app:cardElevation="5dp">
+
+            <RelativeLayout
+                android:id="@+id/locationContainer"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/view_new_zone_marker"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"
+                    android:src="@drawable/ic_zone_pin_black"
+                    android:contentDescription="TODO" />
+
+                <com.machinestalk.stayhome.components.TextView
+                    android:id="@+id/txtAddress"
+                    style="@style/boldText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@+id/view_new_zone_marker"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:hint="@string/Zon_AdZon_Iptxt_zone_type_address"
+                    android:includeFontPadding="false"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:textColorHint="@color/grayDashboard"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <com.machinestalk.stayhome.components.FabLayout
+            android:id="@+id/view_dashboard_fab_Layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_add_zone_search_layout"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:visibility="visible" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="0dp"
+            android:layout_alignParentBottom="true"
+            android:visibility="visible">
+
+
+            <LinearLayout
+                android:id="@+id/view_dashboard_first_step_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/dialog_corner_bg"
+                android:elevation="12dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/big_green_check" />
+
+                <com.machinestalk.stayhome.components.TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:lineSpacingExtra="2dp"
+                    android:text="@string/HHD_HHDh_register_location_message"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+
+                <com.machinestalk.stayhome.components.Button
+                    android:id="@+id/view_dashboard_first_step_next_button"
+                    android:layout_width="140dp"
+                    android:layout_height="40dp"
+                    android:textSize="16sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/bg_btn"
+                    android:text="@string/Gen_Gen_lbl_next"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/view_dashboard_wrong_location_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/dialog_corner_bg"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:elevation="12dp"
+                android:padding="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:visibility="gone">
+
+                <com.machinestalk.stayhome.components.TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:maxLines="3"
+                    android:lineSpacingExtra="6dp"
+                    android:text="@string/alert_msg_wrong_location"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <com.machinestalk.stayhome.components.Button
+                    android:id="@+id/view_dashboard_contact_us_button"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:textSize="16sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/bg_btn"
+                    android:text="@string/Gen_Gen_lbl_contact_us"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/view_dashboard_user_location_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/view_dashboard_confirm_location_layout"
+                android:gravity="end"
+                >
+
+                <ToggleButton
+                    android:id="@+id/view_dashboard_user_location"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/selector_toggle_location"
+                    android:checked="false"
+                    android:textOff=""
+                    android:textOn="" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/view_dashboard_confirm_location_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="12dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/dialog_corner_bg"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/big_green_check" />
+
+                <com.machinestalk.stayhome.components.TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:lineSpacingExtra="2dp"
+                    android:text="@string/HHD_HHDh_location_verification_message"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <com.machinestalk.stayhome.components.Button
+                        android:id="@+id/view_dashboard_confirm_location_no_button"
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:textSize="16sp"
+                        android:layout_marginEnd="15dp"
+                        android:background="@drawable/bg_btn_no"
+                        android:text="@string/Gen_Gen_lbl_no"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+                    <com.machinestalk.stayhome.components.Button
+                        android:id="@+id/view_dashboard_confirm_location_yes_button"
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:textSize="16sp"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/bg_btn"
+                        android:text="@string/Gen_Gen_lbl_yes"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/view_dashboard_location_saved_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/dialog_corner_bg"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/big_green_check" />
+
+                <com.machinestalk.stayhome.components.TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:lineSpacingExtra="2dp"
+                    android:text="@string/HHD_HHDh_location_saved_message"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+
+                <com.machinestalk.stayhome.components.Button
+                    android:id="@+id/view_dashboard_location_saved_next_button"
+                    android:layout_width="140dp"
+                    android:layout_height="40dp"
+                    android:textSize="16sp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_btn"
+                    android:visibility="invisible"
+                    android:text="@string/Gen_Gen_lbl_next"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <com.machinestalk.stayhome.components.TextView
+            android:id="@+id/txtRadius"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="2dp"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:text="@string/Zon_AdZon_lbl_default_radius_zone"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:visibility="gone" />
+
+    </com.machinestalk.stayhome.components.MyMapTracking>
+
+
+    <include
+        android:id="@+id/view_dashboard_first_sign_up"
+        layout="@layout/view_first_sign_up"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/view_dashboard_self_questions"
+        layout="@layout/view_self_questions"
+        android:visibility="gone" />
+
+
+    <include
+        android:id="@+id/progress"
+        layout="@layout/layout_progress"
+        android:visibility="gone" />
+
+</RelativeLayout>

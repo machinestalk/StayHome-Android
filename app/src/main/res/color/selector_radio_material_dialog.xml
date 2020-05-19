@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/navy" />
+    <item android:color="@color/navy" android:state_focused="false"/>
+    <item android:color="@color/navy" android:state_pressed="true"/>
+    <item android:color="@color/navy" android:state_selected="true"/>
+    <item android:color="@color/navy" android:state_selected="false"/>
+    <item android:color="@color/green" android:state_checked="false"/>
+    <item android:color="@color/green" android:state_activated="false"/>
+    <item android:color="@color/green" android:state_activated="true"/>
+    <item android:color="@color/green" android:state_active="true"/>
+    <item android:color="@color/green" android:state_active="false"/>
+    <item android:color="@color/red" android:state_enabled="false"/>
+    <item android:color="@color/navy" android:state_checkable="false" />
+    <item android:color="@color/navy" android:state_single="true" />
+    <item android:color="@color/navy" android:state_single="false" />
+</selector>

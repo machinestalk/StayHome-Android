@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dlDashboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layoutDirection="locale"
+    android:textAlignment="gravity"
+    android:textDirection="locale">
+
+    <RelativeLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/layout_toolbar" />
+
+
+        <!--Content Container-->
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp">
+
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <!--Drawer starts here-->
+    <FrameLayout
+        android:id="@+id/frameLayoutDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:visibility="visible"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <include layout="@layout/layout_dashboard_menu_header" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/zone_items_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="17dp"
+                        android:orientation="vertical">
+
+
+                        <com.machinestalk.stayhome.components.SlideMenuItemView
+                            android:id="@+id/home_slide_menu_item"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:iconSlideItem="@drawable/selector_icon_home_slide_menu"
+                            app:selectedSlideItem="true"
+                            app:titleSlideItem="@string/ApDr_ApDr_SBtn_home" />
+
+                        <com.machinestalk.stayhome.components.SlideMenuItemView
+                            android:id="@+id/dashboard_slide_menu_item"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:iconSlideItem="@drawable/selector_icon_zones_slide_menu"
+                            app:selectedSlideItem="true"
+                            app:titleSlideItem="@string/ApDr_ApDr_SBtn_zones" />
+
+                        <com.machinestalk.stayhome.components.SlideMenuItemView
+                            android:id="@+id/check_in_slide_menu_item"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:visibility="visible"
+                            app:iconSlideItem="@drawable/selector_icon_check_in_slide_menu"
+                            app:selectedSlideItem="false"
+                            app:titleSlideItem="@string/ApDr_ApDr_SBtn_check_in" />
+
+                        <com.machinestalk.stayhome.components.SlideMenuItemView
+                            android:id="@+id/bracelet_slide_menu_item"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:visibility="visible"
+                            app:iconSlideItem="@drawable/selector_icon_bracelet_slide_menu"
+                            app:selectedSlideItem="false"
+                            app:titleSlideItem="@string/ApDr_ApDr_SBtn_bracelet" />
+
+                        <com.machinestalk.stayhome.components.SlideMenuItemView
+                            android:id="@+id/emergency_slide_menu_item"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:visibility="visible"
+                            app:iconSlideItem="@drawable/selector_icon_emergency_slide_menu"
+                            app:selectedSlideItem="false"
+                            app:titleSlideItem="@string/ApDr_ApDr_SBtn_emergency" />
+
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="10dp"
+                android:alpha="0.3"
+                android:background="@color/grayDashboard" />
+
+
+            <com.machinestalk.stayhome.components.SlideMenuItemView
+                android:id="@+id/support_slide_menu_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:iconSlideItem="@drawable/selector_icon_support_slide_menu"
+                app:selectedSlideItem="false"
+                app:titleSlideItem="@string/ApDr_ApDr_SBtn_support" />
+
+            <com.machinestalk.stayhome.components.SlideMenuItemView
+                android:id="@+id/logout_slide_menu_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:iconSlideItem="@drawable/ic_logout_slide_menu"
+                app:selectedSlideItem="false"
+                app:titleSlideItem="@string/ApDr_ApDr_SBtn_logout" />
+
+            <com.machinestalk.stayhome.components.TextView
+                android:id="@+id/txtVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginEnd="25dp"
+                android:ellipsize="end"
+                android:foregroundGravity="bottom"
+                android:gravity="end"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+    <include
+        android:id="@+id/progress"
+        layout="@layout/layout_progress"
+        android:visibility="gone" />
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

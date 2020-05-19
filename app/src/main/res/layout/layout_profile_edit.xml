@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:gravity="center_horizontal|center_vertical"
+    android:layoutDirection="locale">
+
+    <LinearLayout
+        android:id="@+id/containerTxtInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/icon"
+        android:layout_toStartOf="@+id/frame"
+        android:orientation="horizontal">
+
+    <com.machinestalk.stayhome.components.EditText
+        android:id="@+id/txtInput"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@null"
+        android:cursorVisible="true"
+        android:focusableInTouchMode="true"
+        android:gravity="top"
+        android:hint="here"
+        android:ems="10"
+        android:inputType="text"
+        android:maxLength="50"
+        android:maxLines="1"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="15sp" />
+
+        <com.machinestalk.stayhome.components.TextView
+            android:id="@+id/txtKM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginStart="2dp"
+            android:gravity="end"
+             android:visibility="gone" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="15dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_menu_camera" />
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/iconStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:theme="@style/MotSwitch"
+            android:checked="true"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <View
+        android:id="@+id/separator"
+        style="@style/separator"
+        android:layout_alignStart="@+id/containerTxtInput"
+        android:layout_below="@+id/containerTxtInput"
+        android:layout_toEndOf="@+id/icon"
+        android:background="@color/gray" />
+
+</RelativeLayout>

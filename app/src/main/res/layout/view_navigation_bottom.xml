@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="5dp"
+    android:gravity="center">
+
+    <FrameLayout
+        android:id="@+id/viw_item_navigation_icon_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/viw_item_navigation_alert_index"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="end"
+            android:layout_marginStart="17dp"
+            android:background="@drawable/shape_notification_index"
+            android:gravity="center"
+            android:text="466"
+            android:textColor="@color/white"
+            android:textSize="9sp"
+            android:visibility="visible" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/viw_item_navigation_icon"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            app:srcCompat="@drawable/ic_alerts_dashboard" />
+    </FrameLayout>
+
+    <com.machinestalk.stayhome.components.TextView
+        android:id="@+id/viw_item_navigation_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viw_item_navigation_icon_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textSize="12sp"
+        android:text="Alerts"
+        android:textColor="@color/black" />
+
+    <View
+        android:id="@+id/viw_item_navigation_selected_line"
+        android:layout_width="30dp"
+        android:layout_height="1dp"
+        android:layout_below="@+id/viw_item_navigation_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:background="@color/blue_color" />
+</RelativeLayout>

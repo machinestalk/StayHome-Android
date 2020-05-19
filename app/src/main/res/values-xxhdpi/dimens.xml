@@ -1,0 +1,5 @@
+<resources>
+
+    <dimen name="calendar_history_margin_start">40dp</dimen>
+
+</resources>

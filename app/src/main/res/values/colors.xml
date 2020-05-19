@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#33DEA3</color>
+    <color name="colorPrimaryDark">#4BBD98</color>
+    <color name="colorAccent">#33DEA3</color>
+
+    <color name="blue_button_normal">#003c77</color>
+    <color name="blue_button_pressed">#013568</color>
+    <color name="error">#c90003</color>
+    <color name="error_bg">#923D3E</color>
+    <color name="grey_bg">#EEEEEE</color>
+
+    <color name="overlayColor">#52000000</color>
+    <color name="toolBarBgColor">#013568</color>
+    <color name="toolbarButtonTitle">#ffffff</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="WhiteOpacite">#99000000</color> <!-- 99 is for alpha and others pairs zero's are for R G B -->
+    <color name="whiteTransparent">#ddffffff</color>
+    <color name="whiteAsh">#F8F8F8</color>
+    <color name="navy">#003C77</color>
+    <color name="gray">#E2E2E2</color>
+    <color name="grayLight">#F3F3F3</color>
+    <color name="grayDarkTransparent">#40777777</color>
+    <color name="grayDark">#777777</color>
+    <color name="grayExtraDark">#5e5e5e</color>
+    <color name="grayAlpha">#89E2E2E2</color>
+    <color name="grayDashboard">#AAAAAA</color>
+    <color name="gray_color">#DBDBDB</color>
+    <color name="sep">#E2E2E2</color>
+    <color name="blue">#7A9ECB</color>
+    <color name="blue_transparent">#467A9ECB</color>
+    <color name="darkBlue">#0f649d</color>
+    <color name="state_disabled">#f1f1f1</color>
+    <color name="profile_image_bg">#CDD9EF</color>
+    <color name="vehicle_list_bg">#C8DAF0</color>
+    <color name="hintColor">#A3C3A9</color>
+
+
+    <color name="grayDarkAlpha">#894B4B4B</color>
+    <color name="green">#34A44F</color>
+    <color name="greenLight">#D6F1DD</color>
+    <color name="greenWhite">#F4FEF6</color>
+    <color name="greenDark">#2b8741</color>
+    <color name="red">#B3ff0011</color>
+    <color name="red_pending">#FF0000</color>
+    <color name="redLightAlpha">#7fffffff</color>
+    <color name="redAlpha">#8aff0011</color>
+    <color name="zoneColor">#52ff0011</color>
+    <color name="pluBackground">#4A4A4A</color>
+
+    <color name="yellow">#80DEBC1E</color>
+    <color name="green_selector">#40B45C</color>
+    <color name="rouge_ornage">#F85757</color>
+
+    <color name="selected_location">#d5e2ef</color>
+    <color name="green_request_pending">#74cb8a</color>
+    <color name="green_pickup_location">#f5fff7</color>
+    <color name="drivers_background">#e5e9f0</color>
+
+
+    <color name="dial_orange">#F58025</color>
+    <color name="dial_green">#34A44F</color>
+    <color name="dial_red">#CE2F45</color>
+    <color name="dial_whiteAsh">#F8F8F8</color>
+
+    <color name="hint_login">#999999</color>
+    <color name="forgot_password">#666666</color>
+    <color name="signup_here">#1a4f85</color>
+    <color name="separator">#333333</color>
+    <color name="btn_login">#0f639b</color>
+    <color name="text_green">#23A45A</color>
+    <color name="white_ice">#D5EDDD</color>
+    <color name="btn_green">#2DAF63</color>
+    <color name="trip_event_grey">#8B8B8B</color>
+    <color name="grey_text_color">#9C9C9C</color>
+    <color name="blue_color_slogan">#0c649c</color>
+    <color name="intro_bar">#80003C77</color>
+    <color name="colorTransparent">#00FFFFFF</color>
+    <color name="vehicleTrackingColor">#F4F4F4</color>
+
+
+    <color name="vehicle_status_moving">#2AA248</color>
+    <color name="vehicle_status_idle">#DDBB1E</color>
+    <color name="vehicle_status_stopped">#BE3134</color>
+    <color name="vehicle_status_not_responding">#CECECE</color>
+    <color name="nex_button_self_questions_color_disabled">#CECECE</color>
+
+    <!--colors of new design-->
+
+    <color name="green_color">#33DEA3</color>
+    <color name="green_light_color">#33DEA3</color>
+    <color name="blue_color">#0F639C</color>
+    <color name="blue_light_color">#4082B0</color>
+    <color name="icons_color">#87B0CC</color>
+    <color name="text_grey_color">#87B0CC</color>
+    <color name="red_color">#FF7260</color>
+    <color name="yellow_color">#ffaf00</color>
+
+    <color name="green_light_new_color">#8befc9</color>
+
+    <color name="green_new_color">#3cd490</color>
+
+    <color name="select_green_color">#3dd590</color>
+    <color name="zone_radius_color">#3babfb</color>
+    <color name="selected_payfort_color">#949494</color>
+    <color name="colorControlActivated">#503D3337</color>
+    <color name="colorRedDiagnostic">#F85757</color>
+    <color name="colorOrangeBadInfo">#FF8433</color>
+    <color name="colorRedBadInfo">#F53C3C</color>
+
+    <color name="colorGreen">#2ECDA2</color>
+    <color name="macAddressFailedColor">#ff595a</color>
+    <color name="macAddressNormalColor">#24959e</color>
+</resources>

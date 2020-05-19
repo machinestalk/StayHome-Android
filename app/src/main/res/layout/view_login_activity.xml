@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_signin"
+    android:layoutDirection="locale">
+
+
+    <LinearLayout
+        android:id="@+id/view_login_language_selector_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="ltr"
+        android:layout_marginTop="10dp">
+
+        <com.machinestalk.stayhome.components.TextView
+            android:id="@+id/view_login_language_selector_text_view"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="@drawable/shape_language_bg"
+            android:gravity="center"
+            android:text="@string/SignIn_SignIn_lbl_language"
+            android:textColor="#2BC7B7"
+            android:textDirection="rtl"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/view_sign_in_sign_up_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/view_sign_in_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="80dp"
+                android:visibility="visible">
+
+                <com.machinestalk.stayhome.components.TextView
+                    android:id="@+id/title_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/SignIn_SignIn_lbl_enter_phone"
+                    android:textColor="@color/white"
+                    android:textSize="26sp" />
+
+                <com.machinestalk.stayhome.components.TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/SignIn_SignIn_lbl_phone"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/user_name_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <com.hbb20.CountryCodePicker
+                            android:id="@+id/view_sign_in_ccp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginStart="20dp"
+                            android:background="@color/white"
+                            android:gravity="start"
+                            app:ccp_defaultPhoneCode="966"
+                            app:ccp_showFlag="false"
+                            app:ccp_showNameCode="false"
+                            app:ccp_arrowColor="@color/black"
+                            app:ccp_textGravity="CENTER"
+                            app:ccp_textSize="17sp" />
+
+                        <com.machinestalk.stayhome.components.EditText
+                            android:id="@+id/txtUsername"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:background="@android:color/transparent"
+                            android:backgroundTint="#22a9a3"
+                            android:inputType="text"
+                            android:maxLength="9"
+                            android:gravity="bottom"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/icons_color"
+                            android:digits="0123456789٩٨٧٦٥٤٣٢١٠"
+                            android:textSize="16sp" >
+                            <requestFocus />
+                        </com.machinestalk.stayhome.components.EditText>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@color/icons_color" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="end"
+                    android:orientation="horizontal">
+
+                    <com.machinestalk.stayhome.components.Button
+                        android:id="@+id/btnLogin"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_white_button_bg"
+                        android:textAllCaps="false"
+                        android:text="@string/SignIn_SignIn_lbl_enter"
+                        android:textAppearance="@style/regularText"
+                        android:textColor="@color/green_light_color"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/view_send_pin_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="80dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <com.machinestalk.stayhome.components.TextView
+                    android:id="@+id/view_send_pin_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/SignIn_SignIn_lbl_verify_pin"
+                    android:textColor="@color/white"
+                    android:textSize="26sp" />
+
+                <com.machinestalk.stayhome.components.TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/SignIn_SignIn_lbl_pin_inf"
+                    android:visibility="visible"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <com.machinestalk.stayhome.components.EditText
+                    android:id="@+id/view_login_verify_pin_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:background="@android:color/transparent"
+                    android:backgroundTint="@color/gray"
+                    android:inputType="text"
+                    android:visibility="gone"
+                    android:maxLength="6"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:digits="0123456789٩٨٧٦٥٤٣٢١٠"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:visibility="gone"
+                    android:layout_marginStart="10dp"
+                    android:background="@color/icons_color" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:gravity="center">
+
+                    <com.machinestalk.stayhome.components.EditText
+                        android:id="@+id/view_otp_code_one"
+                        android:layout_width="45dp"
+                        android:layout_height="52dp"
+                        android:gravity="center"
+                        android:inputType="text"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textColorHint="@color/colorPrimaryDark"
+                        android:textSize="18sp"
+                        android:background="@drawable/shape_white_otp_code_bg"
+                        android:digits="0123456789٩٨٧٦٥٤٣٢١٠"
+                        android:maxLength="1" >
+                    </com.machinestalk.stayhome.components.EditText>
+
+                    <com.machinestalk.stayhome.components.EditText
+                        android:id="@+id/view_otp_code_two"
+                        android:layout_width="45dp"
+                        android:layout_height="52dp"
+                        android:layout_marginStart="8dp"
+                        android:gravity="center"
+                        android:inputType="text"
+                        android:maxLength="1"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textColorHint="@color/colorPrimaryDark"
+                        android:textSize="18sp"
+                        android:digits="0123456789٩٨٧٦٥٤٣٢١٠"
+                        android:background="@drawable/shape_white_otp_code_bg" />
+
+                    <com.machinestalk.stayhome.components.EditText
+                        android:id="@+id/view_otp_code_three"
+                        android:layout_width="45dp"
+                        android:layout_height="52dp"
+                        android:layout_marginStart="8dp"
+                        android:inputType="text"
+                        android:gravity="center"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textColorHint="@color/colorPrimaryDark"
+                        android:maxLength="1"
+                        android:digits="0123456789٩٨٧٦٥٤٣٢١٠"
+                        android:background="@drawable/shape_white_otp_code_bg" />
+
+                    <com.machinestalk.stayhome.components.EditText
+                        android:id="@+id/view_otp_code_four"
+                        android:layout_width="45dp"
+                        android:layout_height="52dp"
+                        android:layout_marginStart="8dp"
+                        android:inputType="text"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textColorHint="@color/colorPrimaryDark"
+                        android:gravity="center"
+                        android:maxLength="1"
+                        android:digits="0123456789٩٨٧٦٥٤٣٢١٠"
+                        android:background="@drawable/shape_white_otp_code_bg" />
+
+                    <com.machinestalk.stayhome.components.EditText
+                        android:id="@+id/view_otp_code_five"
+                        android:layout_width="45dp"
+                        android:layout_height="52dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textColorHint="@color/colorPrimaryDark"
+                        android:layout_marginStart="8dp"
+                        android:inputType="text"
+                        android:gravity="center"
+                        android:digits="0123456789٩٨٧٦٥٤٣٢١٠"
+                        android:maxLength="1"
+                        android:background="@drawable/shape_white_otp_code_bg" />
+
+                    <com.machinestalk.stayhome.components.EditText
+                        android:id="@+id/view_otp_code_six"
+                        android:layout_width="45dp"
+                        android:layout_height="52dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textColorHint="@color/colorPrimaryDark"
+                        android:layout_marginStart="8dp"
+                        android:inputType="text"
+                        android:gravity="center"
+                        android:digits="0123456789٩٨٧٦٥٤٣٢١٠"
+                        android:maxLength="1"
+                        android:background="@drawable/shape_white_otp_code_bg" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/view_login_action_button_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="45dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <com.machinestalk.stayhome.components.TextView
+                        android:id="@+id/view_login_resend_pin"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="16sp"
+                        android:layout_weight="0.7"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="@string/SignIn_SignIn_lbl_resent_pin"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <com.machinestalk.stayhome.components.Button
+                        android:id="@+id/view_login_send_otp"
+                        android:layout_width="118dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/shape_white_button_bg"
+                        android:text="@string/SignIn_SignIn_lbl_go"
+                        android:visibility="gone"
+                        android:textAppearance="@style/regularText"
+                        android:textColor="@color/green_light_color"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/progress"
+        layout="@layout/layout_progress"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

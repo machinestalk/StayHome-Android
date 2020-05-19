@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/dialog_bg"
+    app:cardElevation="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/view_alert_dialog_top_bar"
+            android:layout_width="60dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/black" />
+
+        <ImageView
+            android:id="@+id/ivAvatar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            tools:src="@drawable/red_bluetooth" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/view_alert_dialog_second_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                tools:src="@drawable/bluetooth_blue" />
+
+            <com.machinestalk.stayhome.components.TextView
+                android:id="@+id/view_alert_dialog_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:layout_marginBottom="8dp"
+                app:font_path_from_assets="@string/font_bold"
+                tools:text="Connected" />
+
+        </LinearLayout>
+
+
+        <com.machinestalk.stayhome.components.TextView
+            android:id="@+id/view_alert_dialog_sub_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:maxLines="3"
+            android:minLines="2"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:visibility="gone"
+            tools:text="@string/register_successfully"
+            tools:visibility="visible" />
+
+
+        <com.machinestalk.stayhome.components.Button
+            android:id="@+id/bt_done"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_btn"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            tools:text="@string/Rde_TrDt_SBtn_start_ride" />
+    </LinearLayout>
+</LinearLayout>

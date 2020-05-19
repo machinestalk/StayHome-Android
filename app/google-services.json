@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "391010251961",
+    "firebase_url": "https://stayinhome-c59b6.firebaseio.com",
+    "project_id": "stayinhome-c59b6",
+    "storage_bucket": "stayinhome-c59b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391010251961:android:7959b86fe371a20e7fd768",
+        "android_client_info": {
+          "package_name": "com.machinestalk.stayhome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "391010251961-idc06rcj394vkcqq9ttm0drr09e993t0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9SSix2vMwa36qbih1SkkhFqG4tFhjJBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "391010251961-idc06rcj394vkcqq9ttm0drr09e993t0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "391010251961-raof1t17c16dvquluvvf2vkbjq869mc6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.machinestalk.StayAtHome"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

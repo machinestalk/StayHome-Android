@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash">
+
+    <LinearLayout
+        android:id="@+id/loginContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"
+        android:visibility="visible">
+
+        <com.machinestalk.stayhome.components.Button
+            android:id="@+id/view_landing_page_sign_in_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/shape_green_button_bg"
+            android:text="@string/SgIn_Land_SBtn_sign_in"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <com.machinestalk.stayhome.components.TextView
+            android:id="@+id/terms_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"
+            android:maxLines="3"
+            android:text="@string/Gen_Land_lbl_terms_message"
+            android:textColor="@color/black"
+            android:textDirection="locale"
+            android:textSize="11.5sp"
+            app:font_path_from_assets="@string/font_regular" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:visibility="gone"
+            android:gravity="center"
+            >
+            <com.machinestalk.stayhome.components.TextView
+                android:id="@+id/terms2_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="@string/Gen_Land_lbl_terms2_message"
+                android:textColor="@color/black"
+                android:textDirection="locale"
+                android:textSize="11.5sp"
+                app:font_path_from_assets="@string/font_regular" />
+
+            <com.machinestalk.stayhome.components.TextView
+                android:id="@+id/warranty_and_policies_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:maxLines="1"
+
+                android:text="@string/Gen_Land_lbl_warranty_message"
+                android:textColor="@color/black"
+                android:textSize="11.5sp"
+                app:font_path_from_assets="@string/font_regular" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,203 @@
+
+
+* Current version 2.1.0  build 19103001
+
+MOT-71 : Road Assistance - My location
+MOT-69 :Road Assistance - Current Location
+MOT-67 Road Assistance - Bottom Bar
+
+
+Previous versions :
+
+* version 2.1.0  build 19102401
+
+MOT-85 : Feature - Menu - motorna.sa Store
+MOT-148: Alert screen - Alert loading stucked And Duplicated data
+MOT-38 :Enhancement - Family Member - Assign Car instead of Push Notification Settings
+MOT-65 : Family - Label
+MOT-176 :In the principal menu, the "About Us" did not appears selected (Green color) when the user is in this screen.
+MOT-177 :The "About Us" screen shows the Arabic version of motorna website not the English version.
+MOT-178 :the "Store" should shows store page of motorna website not the website home page.
+
+
+* version 2.0.2  build 19091801
+MOT-2113 Payfort Feedback - As per payfort feedback, we need to add credit/debit/mada card info in Motona App Subscription screen
+MOT-2113 Payfort Feedback - As per payfort feedback, we need to add credit/debit/mada card info in Motona App Subscription screen
+MOT-1788 As a user, I would like to receive notification regarding subscription expiry.
+MOT-2081 Subscription - In the side menu, if any device of user is getting expired in 30 days, we need to show RED DOT next to subscription menu option.
+MOT-2080 Subscription - Need to show the pop-up notification to user when 7 days (configurable) are remaining in expiry of device and keep showing this notifications til day zero.
+MOT-2092 Payfort Feedback - As per payfort feedback, when we navigate user to our app screen, we should show Thank or Decline message.
+MOT-2113 Payfort Feedback - As per payfort feedback, we need to add credit/debit/mada card info in Motona App Subscription screen
+
+*  version 2.0.2  build 19091201
+MOT-2096 The hamburger button is displayed small - Android
+MOT-2012 Android - Dashboard - Live Tracking - Ignition status time is updating on every change in vehicle status.
+
+*  version 2.0.2  build 19091001
+MOT-1966 Android - Signup - design "add device" wrong arabic message
+MOT-1982 Android - App stuck in loading if launched again after some time.
+MOT-1977 History screen - Main summary record should be BOLD - all its text and icons should be bold.
+MOT-1983 Android - When application is launched again from background(minimize) to foreground(open again), app doesn't call the tracking API.
+update subscription flow
+MOT-2081 : Subscription - In the side menu, if any device of user is getting expired in 30 days, we need to show RED DOT next to subscription menu option
+MOT-2080 Subscription - Need to show the pop-up notification to user when 7 days (configurable) are remaining in expiry of device and keep showing this notifications til day zero.
+
+
+*  version 2.0.1  build 19072201
+
+
+Android - Don't have a device yet link is opening FAQs
+
+
+* version 2.0.1  build 19071701
+
+Sign Up flow - Serial No. & Activation Code screen: Add a FAQ link as hyper-link on Serial No. & Activation Code screen by changing the "Can't find...." text.MOT-1709
+
+
+* version 2.0.4  build 19070803
+MOT-1647 Ford Taurus vehicle is showing in Notification Settings section of User Profile
+MOT-1649 In zone detail screen, selecting a single vehicle only should not toggle state of master toggle
+
+
+*version 2.0.4  build 19070203
+update hiding keyboard when adding/updating document
+MOT-1600:Value for datetime in Current Status section is showing for previous vehicle. Status is not updated from Hub
+MOT-1634: All vehicles, devices showing for secondary householder
+MOT-1613: History screen shows records for next day in previous date when trip is between 12:00 AM KSA to 3:00 AM KSA
+
+* version 2.0.4  build 19070103
+MOT-1624 Android - Secondary householder is invited without selecting a vehicle
+MOT-1630 Android - Loading GIF background goes black inside the app
+MOT-1619 Sign Up flow - Remove the add/edit image icon from Sign Up flow - Add Vehicle screen.
+Implement Ardroid
+
+
+
+* version 2.0.4  build 19062602
+MOT-1601 Family screen - Invite screen design development required.
+
+
+
+
+*version 2.0.4  build 19062102
+MOT-1578 Motorna WiFI-Keyboard+ FordTarus issue
+MOT-1584 Description not well displayed when there is a long text
+
+
+*version 2.0.4  build 19062102
+Motorna with new feature of invite user
+delete in list is not work only for user with phone number 550000024
+
+
+*version 2.0.4  build 19061902
+update keyboard of some screen like user profile and vehicle detail screen, add document
+
+*version 2.0.4  build 19061803
+update keyboard of some screen like user profile and vehicle detail screen, add document
+
+
+*version 2.0.4  build 19061801
+MOT-1561 Motorna screen: Selecting/Assigning Driver to a vehicle must be optional in case of Add & Edit vehicle profile
+MOT-1559 Can't Find It text issues
+
+
+*version 2.0.4  build 19061701
+MOT-1541 When user press back button...
+MOT-1543 Alert Filter screen - Following are few feedback regarding Alert screen
+MOT-1547 Zones: For editing zones record - remove the...
+MOT-1550 Lock User must be handled only Backend side
+
+*version 2.0.4  build 19061401
+MOT-1544 Sign Up flow - Add Device screen: Change the hyperlink "Can't find it?" to "Can't find it in the user guide? Please Call 920000474" text.
+MOT-1540 Feedback - Editing Family/Vehicles profiles should have downward arrows icon for dropdown fields & rightside pointing arrow icon for list pages
+ & pen icon for images -> Add & Edit both screens.
+
+*version 2.0.4  build 19061201
+MOT-1528  Motorna App - Labels file (Android & iOS)
+MOT-1526 "Remove picture" option is not displayed in vehicle's picture
+
+
+*version 2.0.4  build 19061002
+MOT-1518 Whole App - Swipe to the right feature is required to navigate user to previous screen
+MOT-1520 New Loading Gif implementation - PO request.
+
+
+*version 2.0.4  build 19052801
+MOT-1445 Delete feature issue
+MOT-1474 "0" is always displayed on "Mileage value" and "Mileage threshold"
+MOT-1495 Keyboard always present
+MOT-1281 Some design are wrong in "Alerts filter" screen.
+MOT-1506 Sign Up flow - Remove "Speed Limit" field in Add Vehicle form during Sign Up flow
+
+
+*version 2.0.4  build 19052701
+MOT-1440 New design add device Motorna
+MOT-1495 Keyboard always present
+MOT-1493 Wrong message in Sign_in screen
+
+*version 2.0.4  build 19052301
+MOT-1457 On Contact Us screen, screen should move up when user opens the keyboard as final ....
+MOT-1486 Popup Mark as completed disappear when clicking somewhere..
+
+
+*version 2.0.4  build 19052101
+MOT-1469 Remove Idle time from Vehicle Status panel on dashboard & from Trip history screens
+MOT-1459 The new device is not added
+
+*version 2.0.4  build 19052001
+MOT-1448 Alert filter screen is showing Other section repeated
+MOT-1450 Default Zoom level of app when user login is not correct. It should be set on All vehicle zoom.
+MOT-1452 Default zoom level on zones creation should be set to my location
+MOT-1457 On Contact Us screen, screen should move up when user opens the keyboard as final input button is at the bottom of the screen
+
+*version 2.0.4  build 19051501
+MOT-1407 Some arabic translation are wrong in "Road assistance" screen - Android
+MOT-1403 The result of alert's filter is responding wrong - Android
+MOT-1299 Dashboard - When user press All Vehicle, My Location (blue icon on screen) should not
+MOT-1412 Some design are wrong in "Maintainance Notification" page - Android
+MOT-1036 Remove Photo button while there is no photo
+MOT-1372 User profile screen not refreshed after change Phone Number
+
+*version 2.0.4  build 19051401
+MOT-1353 Android - Send Country Code with Phone number at Login
+MOT-1267 The future's date can be selected in history's calendar - Android
+MOT-1259 Some design are wrong in "History" screen - Android
+MOT-1385 Some design are wrong in "Zone details" screen in Arabic version
+MOT-1294 Some design are wrong in "Trip" screen - Android
+
+
+*version 2.0.4  build 19051301
+MOT-1259 Some design are wrong in "History" screen - Android
+MOT-1385 Some design are wrong in "Zone details" screen in Arabic version
+MOT-1353 Android - Send Country Code with Phone number at Login.
+
+
+*version 2.0.4  build 19051001
+MOT-1378 Zones - zone detail screen - Need to add zone map icon next to zone name field on zone detail screen, which will navigate user to zone map screen
+MOT-1373 App closed after click on back button in Sign_in page
+MOT-1334 Contact Us - PO Feedback - Changes in Contact Us.
+MOT-1357 Some design are wrong in "Zone" main page - Android
+MOT-1382 Sign Up flow - we need to remove PIN unlock feature from sign up flow
+MOT-1377 Some design is wrong in "Enter your phone" screen - Android
+MOT-1281 Some design are wrong in "Alerts filter" screen - Android
+
+
+* version 2.0.4  build 19050801
+
+MOT-1299 Dashboard - PO Feedback - When user press All Vehicle, My Location (blue icon on screen) should not show.
+MOT-1198 Push Notification setting
+MOT-1286 Add Vehicle design issue
+MOT-1303 maintenance event - threshold not updated when "Mileage Based"
+MOT-1338 Arabic translation of "Add vehicle" screen contains some errors - Android
+MOT-1340 Arabic translation of "Select device" screen contains an error - Android
+MOT-1343 Arabic translation of "Add device" screen contains an error - Android
+MOT-1345 Device number is not displayed after adding a device - Android
+MOT-1347 Arabic translation of "Vehicle's informations" screen contains an error - Android
+MOT-1296 Android - Implement new Vehicle Alert setting API
+MOT-1357 Some design are wrong in "Zone" main page - Android
+MOT-1296 Android - Implement new Vehicle Alert setting API
+
+*version 2.0.4  build 19040701
+MOT-1291 Some design are wrong in "Alerts" screen - Android
+MOT-1328 Menu Option - PO Feedback - remove/hide "Store" option from the side menu.
+

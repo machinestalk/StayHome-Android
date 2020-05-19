@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SpinnerStyle"><attr format="string" name="spinnerDirection">
+        <flag name="ltr" value="0"/>
+        <flag name="rtl" value="1"/>
+    </attr><attr format="string" name="spinnerHint"/></declare-styleable>
+    <dimen name="spinner_hintTextSize">14sp</dimen>
+    <dimen name="spinner_item_textSize">14sp</dimen>
+
+    <declare-styleable name="AdvanceCircleImageView">
+        <attr name="acceptStrokeBackground" format="boolean"/>
+        <attr name="stroke"/>
+        <attr name="android:src"/>
+    </declare-styleable>
+
+    <declare-styleable name="DiagnosticsItem">
+        <attr name="diagnostic_title" format="string|reference"/>
+        <attr name="diagnostic_icon" format="reference"/>
+        <attr name="title_color" format="color"/>
+        <attr name="dotted" format="boolean"/>
+    </declare-styleable>
+
+    <attr name="stroke" format="enum">
+        <enum name="Blue" value="0"/>
+        <enum name="Green" value="1"/>
+        <enum name="Yellow" value="2"/>
+        <enum name="Red" value="3"/>
+        <enum name="Gray" value="4"/>
+    </attr>
+
+
+    <declare-styleable name="NavigationBottom">
+        <attr name="iconItem" format="integer"/>
+        <attr name="titleItem" format="string|reference"/>
+        <attr name="selectedItem" format="boolean"/>
+        <attr name="notificationItem" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="SlideMenuItemView">
+        <attr name="iconSlideItem" format="integer"/>
+        <attr name="titleSlideItem" format="string|reference"/>
+        <attr name="selectedSlideItem" format="boolean"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,234 @@
+
+plugins {
+    id "org.sonarqube" version "2.6.1"
+}
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.firebase.crashlytics'
+
+
+sonarqube {
+
+    properties {
+        property "sonar.projectName", "motorna_mobile_android"
+        property "sonar.projectKey", "motorna_mobile_android"
+        property "sonar.host.url", "http://172.20.60.220:9000"
+        property "sonar.language", "java"
+        property "sonar.sources", "src/main/java"
+        property "sonar.login", "admin"
+        property "sonar.password", "admin"
+    }
+}
+repositories {
+    jcenter()
+    maven { url 'https://maven.google.com' }
+}
+
+//apply plugin: 'realm-android'
+
+def VERSION_NAME = "2.2.1"
+def VERSION_TYPE_PROD = "prod_dev"
+
+
+android {
+    signingConfigs {
+        Release {
+            storeFile file('/Users/macbook/Documents/kotlin-native-mobile-multiplatform-example-master/stayathome_android/Keystore/keystore.jks')
+            storePassword 'nomd1234'
+            keyAlias = 'stayhome'
+            keyPassword 'nomd1234'
+        }
+
+        /**
+         config {keyAlias 'CarsTalkAlias'
+         keyPassword 'carstalk101'
+         storeFile file('D:/_Projects/Keystore/CarsTalkKeystore.jks')
+         storePassword 'carstalk101'}*/
+    }
+    compileSdkVersion 29
+    buildToolsVersion '29.0.3'
+    flavorDimensions "default"
+    defaultConfig {
+        applicationId "com.machinestalk.stayhome"
+        minSdkVersion 24
+        targetSdkVersion 29
+        versionCode = getCustomBuildVersion()
+        versionName "1.0.0"
+        multiDexEnabled true
+        manifestPlaceholders = [Map_API_KEY: "AIzaSyBlg6TiPyVl3dKbGSE570W761MnTftRXqU"]
+        vectorDrawables.useSupportLibrary = true
+        ndk.abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+//        android.applicationVariants.all { variant ->
+//            variant.outputs.all {
+//
+//                def flavor = "Production"
+//                if (variant.productFlavors.size() > 0)
+//                    flavor = variant.productFlavors.get(0)
+//
+//                def flavorName = flavor.name //Dev, QA etc...
+//                if (flavorName.equals("mock")) {
+//                    flavorName = "Dev"
+//                }
+//                def buildDate = getCustomBuildVersion() //yyMMdd + incrementBuildNumber
+//                def finalName = "MT_" + flavorName + ".apk"
+//                outputFileName = finalName
+//            }
+//        }
+    }
+    lintOptions {
+        checkReleaseBuilds true
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+//    productFlavors {
+//        prod {
+//            versionCode getCustomBuildVersion()
+//            getFlavorName("Prod")
+//            versionName VERSION_NAME
+//        }
+//        mock {
+//            versionCode getCustomBuildVersion()
+//            versionName VERSION_NAME
+//            getFlavorName("Dev")
+//            manifestPlaceholders = [Map_API_KEY: "AIzaSyBlg6TiPyVl3dKbGSE570W761MnTftRXqU"]
+//        }
+//        en {
+//            versionCode getCustomBuildVersion()
+//            getFlavorName("En")
+//            versionName VERSION_NAME
+//            manifestPlaceholders = [Map_API_KEY: "AIzaSyBlg6TiPyVl3dKbGSE570W761MnTftRXqU"]
+//        }
+//        prodProduction {
+//            versionCode getCustomBuildVersion()
+//            getFlavorName("Production")
+//            versionName VERSION_NAME
+//        }
+//        sl {
+//            versionCode getCustomBuildVersion()
+//            getFlavorName("Sl")
+//            versionName VERSION_NAME
+//        }
+//    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.navigation:navigation-fragment:2.0.0'
+    implementation 'androidx.navigation:navigation-ui:2.0.0'
+    configurations {
+        all*.exclude group: 'com.android.support', module: 'support-v13'
+    }
+    implementation 'com.github.IslamKhSh:CardSlider:0.4'
+
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':framework')
+    implementation('com.crashlytics.sdk.android:crashlytics:2.7.1@aar') {
+        transitive = true
+    }
+    implementation 'org.apache.commons:commons-lang3:3.4'
+    //noinspection GradleCompatible
+    implementation('androidx.appcompat:appcompat:1.0.0') {
+        transitive = true;
+    }
+    //noinspection GradleCompatible
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.core:core:1.0.2'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'commons-collections:commons-collections:3.2.1'
+    implementation 'com.journeyapps:zxing-android-embedded:3.0.2@aar'
+    implementation 'com.google.zxing:core:3.2.0'
+    implementation 'com.afollestad.material-dialogs:core:0.9.1.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'com.google.android.libraries.places:places:2.0.0'
+    implementation 'com.google.android.gms:play-services-location:16.0.0'
+    implementation 'com.google.android.gms:play-services-auth:16.0.1'
+    implementation 'com.yarolegovich:discrete-scrollview:1.3.2'
+    implementation 'com.google.maps.android:android-maps-utils:0.5'
+    implementation 'com.github.jakob-grabner:Circle-Progress-View:v1.3'
+    implementation 'com.google.firebase:firebase-messaging:20.1.7'
+    implementation 'com.google.firebase:firebase-core:17.4.1'
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.3.+'
+    implementation 'com.github.clans:fab:1.6.4'
+    implementation 'com.github.aakira:expandable-layout:1.6.0@aar'
+    implementation 'androidx.multidex:multidex:2.0.0'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.10'
+    implementation 'com.github.apl-devs:appintro:v4.2.2'
+    implementation 'androidx.room:room-runtime:2.0.0'
+    annotationProcessor 'androidx.room:room-compiler:2.0.0'
+    implementation "me.leolin:ShortcutBadger:1.1.22@aar"
+    implementation 'org.greenrobot:eventbus:3.1.1'
+    implementation 'com.github.dmytrodanylyk.shadow-layout:library:1.0.3'
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
+    implementation 'com.prolificinteractive:material-calendarview:1.4.3'
+    implementation 'net.cachapa.expandablelayout:expandablelayout:2.9.2'
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    implementation 'com.hbb20:ccp:2.2.7'
+    implementation 'com.r0adkll:slidableactivity:2.0.6'
+    api 'com.victor:lib:1.0.1'
+    api 'com.google.code.gson:gson:2.8.0'
+    api 'com.shamanland:fonticon:0.1.8'
+    api('com.nispok:snackbar:2.11.+') {
+        // exclusion is not necessary, but generally a good idea.
+        exclude group: 'com.google.android', module: 'support-v4'
+    }
+    api 'com.google.guava:guava:19.0'
+    api 'org.bouncycastle:bcprov-jdk16:1.46'
+    api 'commons-codec:commons-codec:1.10'
+    implementation 'com.sothree.slidinguppanel:library:3.4.0'
+    implementation 'com.github.TecOrb-Developers:HRMarkerAnimation:fe6f64e75b'
+    implementation 'com.github.tintinscorpion:CarMarker-Animation:1.1'
+    implementation 'com.github.tbruyelle:rxpermissions:0.10.2'
+    implementation "android.arch.persistence.room:rxjava2:1.0.0"
+    implementation 'com.treebo:internetavailabilitychecker:1.0.4'
+    implementation "androidx.lifecycle:lifecycle-runtime:2.0.0"
+    implementation "androidx.lifecycle:lifecycle-extensions:2.0.0"
+    annotationProcessor "androidx.lifecycle:lifecycle-compiler:2.0.0"
+//    implementation 'com.github.exxbrain:android-biometric:1.0.0-alpha04'
+
+    implementation "androidx.biometric:biometric:1.0.1"
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.1.0'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.8'
+    implementation 'me.aflak.libraries:fingerprint:2.5.3'
+    implementation 'com.mtramin:rxfingerprint:2.2.1'
+    implementation files('libs/MTBeaconPlus.jar')
+    implementation 'com.jakewharton:butterknife:10.0.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'
+    implementation 'com.uriio:beacons-android:1.5.2'
+    implementation 'org.altbeacon:android-beacon-library:2+'
+    implementation group: 'net.vidageek', name: 'mirror', version: '1.6.1'
+    implementation 'com.github.danylovolokh:android-logger:1.0.2'
+    implementation 'com.google.firebase:firebase-crashlytics:17.0.0'
+}
+
+static def getCustomBuildVersion() {
+    def date = new Date()
+    def formattedDate = date.format('yyMMdd')
+    return Integer.parseInt(formattedDate + "01")
+}
+
+static def getFlavorName(String name) {
+    return name
+}
+
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.backelite.android.variantSelector'
+apply plugin: "org.sonarqube"

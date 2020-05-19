@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Gen_Gen_lbl_app_name">موترنا</string>
+    <string name="ApDr_ApDr_SBmsg_invite">يرجى اختيار سيارة واحدة على الأقل
+    </string>
+    <string name="font_light">Hacen Tunisia.ttf</string>
+    <string name="font_Avenir_semi_final">Avenir-Regular.ttf</string>
+    <string name="font_semi_bold">Hacen Tunisia.ttf</string>
+    <string name="font_regular">Hacen Tunisia.ttf</string>
+    <string name="font_light_separate">Hacen Tunisia.ttf</string>
+
+    <string name="Gen_Gen_lbl_version_app">الإصدار </string>
+    <string name="SignIn_SignIn_lbl_puk_phone">ادخل رمز</string>
+    <string name="SgIn_SgIn_lbl_server_url_dialog_title">ادخل الرابط</string>
+
+    <string name="Veh_Wifi_lbl_password_hint">كلمه السر</string>
+
+    <string name="Gen_Gen_lbl_calendar">التقويم</string>
+
+    <string name="Trp_MyTr_lbl_my_trips">مشاويري</string>
+    <string name="ApDr_ApDr_SBtn_my_trips_drawer"> مشاويري <![CDATA[<b><font color=#FF0000> (بيتا) </font></b>]]></string>
+    <string name="Trp_MyTr_lbl_trips">مشوار</string>
+
+    <string name="ApDr_ApDr_SBtn_zones">منطقتي</string>
+    <string name="ApDr_ApDr_SBtn_guidance">دعم الطرق</string>
+
+    <string name="Gen_Gen_lbl_settings">الإعدادات</string>
+    <string name="ApDr_ApDr_SBtn_logout">خروج</string>
+
+    <string name="HHD_Gen_lbl_dashboard_title">لوحة المعلومات</string>
+    <string name="ApDr_ApDr_SBtn_drawer_about">معلومات عنا</string>
+
+    <string name="Gen_Gen_lbl_menu_edit">تعديل</string>
+    <string name="Gen_Gen_lbl_ok">حسناً</string>
+    <string name="Gen_Gen_lbl_ok_wifi">الذهاب إلى إعداد واي فاي</string>
+    <string name="Gen_Gen_lbl_cancel">إلغاء</string>
+    <string name="HHDH_Gen_lbl_user_role_householder">المالك</string>
+    <string name="LMT_Gen_lbl_fab_zone">المناطق</string>
+    <string name="LMT_Gen_lbl_fab_satellite">الأقمار الصناعية</string>
+    <string name="LMT_Gen_lbl_fab_traffic">حركة المرور</string>
+    <string name="skip_btn">SKIP</string>
+    <string name="Gen_Gen_lbl_next">تابع</string>
+    <string name="Gen_Gen_lbl_sure">نعم بالتأكيد</string>
+
+    <string-array name="Gen_Gen_lbl_image_picker">
+        <item>كاميرا</item>
+        <item>الاستديو</item>
+    </string-array>
+
+    <string-array name="Gen_Gen_lbl_image_picker_extended">
+        <item>كاميرا</item>
+        <item>الاستديو</item>
+        <item>إزالة الصورة</item>
+    </string-array>
+
+    <!--SignUp-->
+    <string name="SgIn_SgIn_Iptxt_hint_phone_number_without_prefix">5xxxxxxx</string>
+    <string name="Gen_Gen_Iptxt_hint_confirm_password">تأكيد كلمة المرور</string>
+    <string name="SgIn_SgIn_lbl_invalid_lenght_phone_number">يجب أن يكون رقم الهاتف بالشكل الصحيح</string>
+    <string name="SgIn_SgIn_lbl_empty_phone_number">الرجاء إدخال رقم الهاتف</string>
+    <string name="Gen_Gen_lbl_done">تم</string>
+    <string name="Pay_Gen_lbl_pay">الدفع</string>
+
+
+
+    <!--Login-->
+    <string name="Gen_Gen_lbl_all_fields_required">يجب إدخال جميع البيانات</string>
+
+    <string name="signup_terms">أوافق على الشروط والأحكام</string>
+
+    <!--Add Device-->
+    <string name="device_serial_error">الرجاء ادخال الرقم التسلسلي</string>
+
+
+    <string name="Dev_AdDev_lbl_device_name_caps">اسم الجهاز</string>
+    <string name="Dev_AdDev_lbl_device">جهاز</string>
+
+    <string name="Dev_DevLst_lbl_title_select_device">اختر الجهاز</string>
+    <string name="Dev_AdDev_title_add_device">إضافة جهاز</string>
+
+
+    <string name="Dev_AdDev_lbl_device_activation_code_caps">رمز التفعيل</string>
+    <string name="Usr_Gen_lbl_device_hint_serial_number">الرقم التسلسلي</string>
+    <string name="Dev_DevLst_lbl_device_hint_activation_code">رمز التفعيل</string>
+    <string name="Dev_DevLst_lbl_device_vehicles">السيارات</string>
+
+    <string name="Gen_Gen_lbl_delete_content">هل أنت متأكد من عملية الحذف؟</string>
+    <string name="Dev_AdDev_lbl_device_default_name">الجهاز رقم 1</string>
+
+    <!--Contact-->
+    <string name="ApI_ContUs_Iptxt_contact_name">الاسم (اختياري) </string>
+
+    <string name="ApI_ContUs_Iptxt_contact_message">نص الرسالة</string>
+    <string name="ApI_ContUs_SBtn_contact_send">ارسل</string>
+
+    <string name="ApI_ContUs_lbl_contact_us_sent">شكرا لتواصلك! سيقوم فريق موترنا بالتواصل معك بأقرب وقت ممكن</string>
+    <string name="ApI_ContUs_lbl_contact_type">نوع الرسالة</string>
+    <string name="ApI_ContUs_lbl_contact_us_required_message">عذرا الرسالة في خانة تواصل معنا فارغة </string>
+
+    <!--Invite User-->
+    <string name="Usr_AdUsr_Iptxt_invite_hint_email">البريد الإلكتروني</string>
+    <string name="Gen_Gen_hint_phone_number">رقم الجوال</string>
+    <string name="Usr_AdUsr_lbl_invite_menu_invite">إضافة</string>
+    <string name="Usr_AdUsr_Iptxt_invite_hint_name">اسم</string>
+
+    <string name="Usr_AdUsr_lbl_invite_sent">تم إرسال دعوتك</string>
+    <string name="Drv_DrvPrf_lbl_license_number" formatted="false">رقم الرخصة: %1$s</string>
+    <string name="Usr_AdUsr_lbl_add_user_success">تمت إضافة المستخدم بنجاح </string>
+
+    <string name="Dev_DevLst_lbl_device_delete">الأجهزة المحذوفة</string>
+    <string name="Trp_MyTr_lbl_trip_delete">الرحلات المحذوفة</string>
+
+
+    <!--Zone-->
+    <string name="Zon_ZonLst_lbl_zones_title">المناطق</string>
+    <string name="Zon_ZonLst_lbl_radius_format" formatted="false">%s متر</string>
+    <string name="Zon_ZonLst_lbl_times_format" formatted="false">%1$s إلى %2$s</string>
+    <string name="Zon_ZonMap_lbl_add_zone_title">إضافة نطاق</string>
+    <string name="Zon_ZonDt_lbl_add_zone_title">إضافة نطاق</string>
+    <string name="Zon_ZonMap_lbl_add_zone_name">إضافة اسم للمنطقة المحددة</string>
+    <string name="Zon_Gen_lbl_zone_radius">نصف القطر</string>
+    <string name="Zon_AdZon_Iptxt_zone_type_address">نوع العنوان</string>
+    <string name="Zon_ZonDt_lbl_zone_meter_m">متر</string>
+    <string name="Zon_AdZon_lbl_default_radius_zone">150</string>
+    <string name="Zon_ZonDt_lbl_zone_notify_in">بلغني عند الدخول</string>
+    <string name="Zon_ZonDt_lbl_zone_notify_out">بلغني عند الخروج</string>
+    <string name="Zon_ZonDt_lbl_zone_edit_from">من</string>
+    <string name="Zon_ZonDt_lbl_zone_edit_to">إلى</string>
+    <string name="Zon_ZonDt_lbl_zone_edit_times">التوقيت</string>
+    <string name="Zon_ZonDt_lbl_zone_error_no_address">لم يتم العثور على العنوان</string>
+    <string name="Zon_ZonMap_lbl_zone_fetching_address">احصل على العنوان</string>
+    <string name="Zon_AdTr_lbl_zone_fetching_address">احصل على العنوان</string>
+    <string name="Zon_RdeDh_lbl_zone_fetching_address">احصل على العنوان</string>
+    <string name="Zon_ZonMap_lbl_zone_details_title">تفاصيل المنطقة المحددة</string>
+    <string name="Zon_ZonDt_lbl_zone_time_am">ص</string>
+    <string name="Zon_ZonDt_lbl_zone_time_pm">م</string>
+
+    <string name="Zon_ZonDt_lbl_zone_am">ص</string>
+    <string name="Zon_ZonDt_lbl_zone_pm">م</string>
+
+    <string name="Zon_Gen_lbl_cancel_zone">الغاء</string>
+    <string name="Zon_ZonDt_lbl_zone_select_time">حدد الوقت</string>
+    <string name="Gen_Gen_lbl_no_records_found">لا توجد سجلات</string>
+    <string name="Drv_DrvDh_lbl_no_calendar_event">لايوجد مواعيد</string>
+
+    <!-- Favorites -->
+    <string name="Gen_FavLst_lbl_favorites_title">المفضلة</string>
+    <string name="Gen_PlcSrch_lbl_favorites_title">المفضلة</string>
+    <string name="Gen_PlcSrch_lbl_palce_hint">بحث</string>
+    <string name="Zon_AdTr_lbl_favorites_add_to_favorites_title">أضف الى المفضلة</string>
+    <string name="Zon_Adtr_lbl_add_favorites_address_message">هل ترغب في إضافة هذا الموقع إلى المفضلة؟</string>
+    <string name="Gen_PlcSrch_lbl_favorite_delete">تم الحذف من المفضلة</string>
+    <string name="Gen_FavLst_lbl_favorite_delete">تم الحذف من المفضلة</string>
+    <string name="Zon_ZonMap_lbl_favourite_success_text">تم اضافة المفضلة بنجاح</string>
+    <string name="Zon_ZonMap_lbl_favourite_success_title">تم بنجاح</string>
+    <string name="Zon_ZonMap_lbl_favourtie_name">المفضلة</string>
+    <string name="Gen_Gen_Iptxt_enter_name">أدخل الاسم</string>
+
+    <!--Driver-->
+
+    <string name="Gen_Gen_lbl_not_available">غير متاح</string>
+    <string name="Gen_Gen_lbl_please_wait">الرجاء الإنتظار</string>
+
+    <!-- Profile -->
+    <string name="Veh_VehPrf_lbl_profile_licence">رقم الرخصة: </string>
+    <string name="Usr_UsrPrf_lbl_profile_contact_info">معلومات الاتصال</string>
+    <string name="Veh_RdeDahHH_lbl_profile_on_vehicle">لم يتم العثور على سيارات</string>
+    <string name="Veh_VehPrf_lbl_profile_on_document">لا توجد ملفات </string>
+    <string name="User_UserPrf_lbl_profile_title_speed_limit">حد السرعة</string>
+
+    <!--Vehicle-->
+
+    <string name="Veh_Evt_lbl_vehicle_title_view">سيارة</string>
+
+    <string name="Veh_AdVeh_Iptxt_vehicle_add_name">اسم الموتر </string>
+    <string name="Veh_AdVeh_Iptxt_vehicle_add_model">الموديل</string>
+    <string name="Veh_AdVeh_Iptxt_vehicle_add_year"> عام التصنيع</string>
+    <string name="Veh_AdVeh_Iptxt_vehicle_add_reg_number">رقم التسجيل</string>
+    <string name="Veh_AdVeh_Iptxt_vehicle_add_device">أضف جهاز</string>
+    <string name="Veh_AdVeh_Iptxt_vehicle_add_driver">إضافة سائق</string>
+    <string name="Gen_Gen_lbl_yes">نعم</string>
+    <string name="Gen_Gen_lbl_no">كلا</string>
+
+    <string name="Gen_Gen_lbl_save">حفظ</string>
+    <string name="Gen_Gen_lbl_invite_carlist">مشاركة السيارة</string>
+    <string name="Veh_DocMod_lbl_document_name">عنوان الملف</string>
+    <string name="Gen_Gen_lbl_invite_user">عائلة/صديق/النسبي</string>
+    <string name="Gen_Gen_lbl_invite_private_user">سائق خاص</string>
+
+    <string name="Gen_Intr_lbl_intro_gif_id" formatted="false">screen_%d_%s</string>
+
+    <string name="Veh_DocMod_lbl_document_expiry">تاريخ الانتهاء</string>
+    <string name="Veh_DocMod_lbl_document_description">الوصف</string>
+    <string name="fabTagKey">صيانة العجلات</string>
+
+    <string name="Veh_VehPrf_lbl_vehicle_year">عام التصنيع</string>
+    <string name="Veh_DocMod_lbl_vehicle_documents">الملفات</string>
+    <string name="Veh_VehPrf_lbl_vehicle_edit_select_model">تحديد الموديل</string>
+    <string name="Veh_VehPrf_lbl_vehicle_edit_select_make">تحديد المصنع</string>
+
+    <string name="Veh_Evt_lbl_event_updated">تم تعديل الموعد بنجاح </string>
+
+    <!--Live Tracking-->
+    <string name="Veh_AdVeh_lbl_vehicle_manufacturer">المصنع</string>
+    <string name="Drv_DrvLst_lbl_select_driver_title">اختر السائق</string>
+    <string name="Gen_Gen_lbl_error_service_default">عفوا. نحن نعتذر، ولكن حدث خطأ ما</string>
+    <string name="ApDr_ApDr_lbl_open_drawer">close the menu</string>
+
+    <string name="HHD_HHDh_lbl_no_driver">لا يوجد سائق</string>
+    <string name="Gen_Gen_lbl_close">أغلق</string>
+    <string name="Veh_EvtLst_lbl_not_found">غير متاح</string>
+
+    <string name="ApDr_Gen_lbl_close_drawer">أغلق القائمة</string>
+
+    <string name="Veh_UsrPrf_lbl_document_deleted">تم الحذف بنجاح</string>
+    <string name="Veh_DocMod_lbl_document_updated">تم تحديث الملف </string>
+
+    <string name="Dev_AdDev_lbl_device_added">تم اضافة الجهاز بنجاح</string>
+    <string name="Dev_AdDev_lbl_device_updated">تم تعديل الجهاز بنجاح</string>
+    <string name="Veh_VehPrf_lbl_vehicle_updated">تم تحديث السيارة بنجاح</string>
+    <string name="Veh_AdVeh_lbl_vehicle_added">تم اضافة المركبة بنجاح</string>
+
+    <string name="Veh_AdVeh_lbl_select_year">اختر السنة</string>
+
+    <!--Householder Dashboard-->
+    <string name="HHD_Gen_CC_dashboard_fuel">الوقود</string>
+    <string name="HHD_Gen_CC_dashboard_temp">درجة الحرارة</string>
+
+    <string name="Gen_Gen_lbl_km_hr">كم/ساعة</string>
+
+    <string name="HHD_Gen_CC_dashboard_top_speed">السرعة القصوى</string>
+
+
+    <string name="HHD_Gen_CC_dashboard_total_score">التقييم</string>
+    <string name="User_User_lbl_family">العائلة</string>
+    <string name="Usr_Gen_lbl_dashboard_fuel_value">%1$d %%</string>
+    <string name="Gen_Gen_lbl_dashboard_temperature_value">%2$s %1$d</string>
+    <string name="Veh_Gen_lbl_no_vehicle_found">لا يوجد سيارة</string>
+    <string name="Drv_DrvDh_lbl_no_driver_found">لا يوجد سائق</string>
+
+    <string name="LMT_LvTrk_lbl_no_zones_available">لا يوجد مناطق محددة</string>
+
+
+    <!-- Setting -->
+
+    <string name="Usr_DrvDh_lbl_view_all">عرض الكل</string>
+
+    <string name="Veh_VehLst_lbl_vehicle_delete">حذف السيارة</string>
+
+    <!-- driverName tab alert -->
+    <string name="Drv_DrvAlTb_lbl_tab_behaviour_violation">التجاوزات في سلوك القيادة</string>
+    <string name="Drv_DrvAlTb_lbl_tab_zone_violation">التجاوز  في النطاق</string>
+
+    <string name="Usr_DrvAlTb_lbl_driver_alert">تنبيهات السائق</string>
+
+    <string name="Set_Sttg_lbl_select_option">حدد الخيار</string>
+    <string name="Gen_Gen_lbl_gps_network_not_enabled">يرجى تفعيل خدمة الموقع بهاتفك</string>
+    <string name="Gen_Gen_lbl_select_image">اختر صورة</string>
+
+    <string name="Gen_Gen_lbl_value_with_percentage" formatted="false">%% %1$s</string>
+
+    <string name="Dev_AdDev_lbl_permission_camera">الرجاء السماح للكاميرا  حتى يتم المسح على الكود</string>
+
+    <string name="Gen_Gen_lbl_camera_request_permission">موترنا بحاجة للوصول للكاميرا. الرجاء السماح بذلك.</string>
+    <string name="Gen_Gen_lbl_contact_request_permission">يلزم الوصول الى قائمة جهات الاتصال، يرجى السماح بذلك.</string>
+    <string name="Gen_Gen_lbl_location_request_permission">موترنا بحاجة لمعرفة موقعك. الرجاء تفعيل خدمات الموقع من إعدادات الجوال.</string>
+    <string name="Gen_WbVw_lbl_no_internet_text"><html dir='rtl' lang='ar'><head><meta charset='utf-8' /></head><body dir='rtl'><h1>لا يوجد اتصال بالانترنت</h1></body></html></string>
+
+
+    <!-- Guidance -->
+
+    <string name="guidance_emergency_contact">الطوارئ</string>
+    <string name="Gui_Gui_lbl_guidance_hospitals">مستشفيات</string>
+    <string name="Gui_Gui_lbl_guidance_workshops">مراكز الصيانة</string>
+    <string name="Gui_Gui_lbl_guidance_apps">تطبيقات</string>
+    <string name="Gui_Gui_lbl_guidance_location_not_found">شغل خدمة الموقع للوصول للمواقع القريبة</string>
+
+    <!-- Emergency Contacts-->
+    <string name="Gen_Gen_lbl_driver">سائق :</string>
+
+    <string name="Zon_ZonDt_lbl_24_hours">على مدار اليوم</string>
+    <string name="SgIn_Land_SBtn_sign_in">تسجيل الدخول/ تسجيل جديد</string>
+    <string name="Set_AdEmCt_Iptxt_contact_description">وصف</string>
+
+    <!--Crop strings override-->
+    <string name="crop_image_menu_crop">قص</string>
+    <string name="crop_image_menu_rotate_left">تدوير عكس اتجاه عقارب الساعة</string>
+    <string name="crop_image_menu_rotate_right">تدوير مع اتجاه عقارب الساعة</string>
+    <string name="HHD_Gen_CC_battery">البطارية</string>
+    <string name="Veh_VehDh_lbl_battery_alert">تحذير</string>
+    <string name="Gen_Gen_lbl_dashboard_battery_value">%1$s %2$s</string>
+
+    <!--Rider Dashboard -->
+    <string name="Trp_AdTr_lbl_pick_location">اختر موقع</string>
+    <string name="Gen_Gen_lbl_none">لا شيء</string>
+    <string name="Rde_Gen_lbl_title_rider_dashboard">مشاوير</string>
+    <string name="Rde_RdeDh_lbl_title_rider_dashboard_ride">المشاوير</string>
+    <string name="Trp_Adtr_lbl_title_create_trip">مشوار جديد</string>
+    <string name="Rde_RdeDh_SBtn_schedule_ride">احجز مشوارك</string>
+    <string name="Rde_RdeDh_SBtn_request_ride">تأكيد الطلب</string>
+    <string name="Rde_RdeDh_SBtn_order_pickup">اطلب الآن</string>
+    <string name="Gen_Gen_lbl_request_ride_accepted">تم قبول الطلب</string>
+    <string name="Rde_RdeDh_lbl_title_schedule_ride_repeat">تكرار</string>
+    <string name="Rde_RdeDh_lbl_title_schedule_ride_date">تاريخ</string>
+    <string name="LMT_Gen_lbl_location_on_map">حدد موقع على الخريطة</string>
+    <string name="Trp_MyTrDt_lbl_select_days">حدد الأيام</string>
+    <string name="Rde_TrDt_lbl_choose">اختر</string>
+    <string name="Rde_RdeDh_lbl_choose">اختر</string>
+    <string name="Rde_Gen_lbl_dialog_title_request_accepted">تم قبول الطلب</string>
+    <string name="ApDr_Gen_lbl_user_rider">راكب</string>
+    <string name="Rde_RdeDh_lbl_cancel_pickup">إلغاء الطلب</string>
+    <string name="Rde_RdeDh_lbl_ride_intended">هل انت الراكب لهذه الرحلة؟</string>
+    <string name="Rde_RdeDh_lbl_start_date_error">تاريخ البدء يجب أن يكون في وقت سابق من تاريخ الانتهاء</string>
+    <string name="no_drivers_available">لا يوجد سائق متوفر</string>
+    <string name="Rde_RdeDh_lbl_duration">%d دقيقة</string>
+
+
+    <string-array name="repeat_days">
+        <item>@string/Trp_Trp_sunday_date</item>
+        <item>@string/Trp_Trp_monday_date</item>
+        <item>@string/Trp_Trp_lbl_tuesday_date</item>
+        <item>@string/Trp_Trp_lbl_wednesday_date</item>
+        <item>@string/Trp_Trp_thursday_date</item>
+        <item>@string/Trp_Trp_friday_date</item>
+        <item>@string/Trp_Trp_saturday_date</item>
+    </string-array>
+    <string name="Veh_Gen_lbl_driver">سائق</string>
+
+    <string name="Rde_RdeDh_lbl_start_date">تاريخ البدء</string>
+    <string name="Rde_RdeDh_lbl_end_date">تاريخ الانتهاء</string>
+
+    <!--Ride Status -->
+    <string name="Rde_TrDt_SBtn_arrived_ride">وصل</string>
+    <string name="Rde_RdeStu_SBtn_arrived_ride">وصل</string>
+    <string name="Rde_TrDt_SBtn_start_ride">البداية</string>
+    <string name="Rde_RdeStu_SBtn_start_ride">البداية</string>
+    <string name="Rde_TrDt_SBtn_end_ride">النهاية</string>
+    <string name="Rde_RdeStu_SBtn_end_ride">النهاية</string>
+    <string name="Rde_RdeStu_SBtn_ride_decline">رفض</string>
+    <string name="Rde_RdeStu_SBtn_ride_accept">قبول</string>
+    <string name="Rde_RdeReq_lbl_ride_request">طلب مشوار</string>
+    <string name="Rde_RdeStu_lbl_response_time_remaining">الثواني المتبقية</string>
+    <string name="Rde_RdeStu_lbl_pickup_text">امسك</string>
+
+    <string name="Rde_RdeStu_SBtn_ride_confirmation_pending">التأكيد قيدالنتظار</string>
+    <string name="Rde_RdeStu_lbl_ride_scheduled_message">تم حجز مشوارك</string>
+    <string name="Rde_RdeStu_lbl_no_response_from_rider_message">انتهت صلاحية المشوار لعدم توفر سائق</string>
+
+
+    <!-- Event Create-->
+    <string name="Veh_Evt_lbl_event_threshold_title_new">قيمة الأميال</string>
+    <string name="Veh_AdEvt_lbl_event_deadline_date_title">تاريخ الموعد</string>
+    <string name="Veh_Evt_lbl_event_days_threshold_title">حد الأيام الأقصى</string>
+    Zon_Gen_lbl_zone_menu_delete<string name="Veh_Evt_lbl_event_threshold_mileage_title">الحد الأقصى للأميال</string>
+    <string name="Trp_MyTr_lbl_event_date_title">تاريخ</string>
+    <string name="Veh_Evt_lbl_event_mark_completed_btn_title">تم الانتهاء </string>
+    <string name="Veh_VehPrf_lbl_delete_event_message">تم حذف الموعد </string>
+    <string name="Veh_Evt_lbl_add_event_message"> تم إضافة موعد بنجاح</string>
+    <string name="Veh_Evt_lbl_event_details_header">تفاصيل الموعد</string>
+    <string name="Veh_Evt_lbl_event_select_type_title">بناءً على</string>
+    <string name="Veh_Evt_lbl_event_select_category_title">نوع</string>
+    <string name="Gen_Gen_lbl_view_all_events">عرض الكل</string>
+    <string name="Veh_Evt_lbl_message_confirm_create_event">هل ترغب في إنشاء موعد آخر؟</string>
+    <string name="title_select_type">اختر نوع </string>
+    <string name="title_select_option">حدد الخيار</string>
+
+    <string name="Veh_AdEvt_lbl_date_based">بناءً على التاريخ</string>
+    <string name="Veh_EvtLst_lbl_mileage_based">بناءً على عدد الكيلومترات</string>
+    <string name="Veh_AdEvt_lbl_both_based">كلاهما</string>
+
+    <string-array name="select_type">
+        <item>@string/Veh_AdEvt_lbl_date_based</item>
+        <item>@string/Veh_EvtLst_lbl_mileage_based</item>
+        <item>@string/Veh_AdEvt_lbl_both_based</item>
+    </string-array>
+
+
+    <string name="Gen_Gen_lbl_km">كم</string>
+    <string name="Trp_TrDt_lbl_fuel_consumption_litres">ليتر</string>
+    <string name="Trp_TrDt_lbl_avg_speed">متوسط ​​السرعة</string>
+    <string name="Rde_RdeDt_lbl_max_speed">السرعة القصوى</string>
+    <string name="Rde_RdeDt_lbl_fuel_consumption">استهلاك الوقود</string>
+    <string name="Rde_RdeDt_lbl_distance">مسافه</string>
+    <string name="Gen_Gen_lbl_owner">المالك : </string>
+    <string name="Gen_Gen_lbl_driver_title">سائق : </string>
+    <string name="Veh_RdeDt_lbl_vehicle">سيارة : </string>
+
+    <string name="Drv_UsrPrf_lbl_driver_availability">متاح كسائق</string>
+
+    <string name="Trp_TrDt_lbl_ride_completed_tripdetailview">المشاوير</string>
+    <string name="Trp_TrDt_lbl_trip">المشاوير</string>
+    <string name="Trp_TrDt_lbl_trip_detail">رحلات</string>
+    <string name="Trp_TrDt_lbl_history">سجل المشاوير</string>
+    <string name="Subs_Payment_lbl__SA_title">إشتراكك </string>
+    <string name="Subs_Payment_lbl__SA_details">تفاصيل الدفع</string>
+    <string name="Subs_Payment_lbl_App_title">التطبيق</string>
+    <string name="Trp_TrDt_lbl_ongoing_trip">جاري التنفيذ</string>
+    <string name="Trp_MyTrDt_lbl_trip_my_detail">المشاوير</string>
+    <string name="Gen_Gen_lbl_select">تحديد</string>
+
+    <!--Settings-->
+    <string name="Trp_MyTr_Iptxt_enter_name_here">أدخل الاسم هنا</string>
+    <string name="Trp_MyTrDt_lbl_trip_repeat">التكرار</string>
+    <string name="Trp_MyTrDt_lbl_trip_end_date">تاريخ الانتهاء</string>
+    <string name="Trp_MyTrDt_lbl_trip_start_date">تاريخ البدء</string>
+    <string name="Trp_AdTr_SBtn_trip_options">خيارات رحلة</string>
+    <string name="Gen_Gen_Iptxt_enter_here">أدخل هنا</string>
+    <string name="Gen_Gen_lbl_hrs">ساعة</string>
+    <string name="Drv_DrvDh_CC_idle_time">مدة الوقوف</string>
+    <string name="Trp_TrMap_lbl_total_events">مجموع الأحداث</string>
+    <string name="Veh_TrMap_lbl_history">التاريخ</string>
+    <string name="Veh_VehHist_lbl_history">السجل</string>
+    <string name="Veh_VehHist_lbl_header_title">سجل رحلات</string>
+    <string name="SgIn_SgIn_lbl_server_url_dialog_hint">http://myurl.com</string>
+    <string name="Trp_TrDt_lbl_trip_date">التكرار والتاريخ</string>
+    <string name="Trp_MyTrDt_lbl_trip_name">اسم</string>
+    <string name="Trp_Gen_lbl_origin">نقطة البداية</string>
+    <string name="Gen_Gen_Iptxt_destination">الوجهة</string>
+
+    <string name="Trp_TrDt_SBtn_create_share_trip">إنشاء ومشاركة رحلة</string>
+    <string name="Trp_MyTrDt_SBtn_trip_edit_title">حفظ ومشاركة الرحلة</string>
+    <string name="Trp_MyTrDt_lbl_shared_with">المشاركة مع</string>
+
+    <string name="Trp_Trp_sunday_date">الأحد</string>
+    <string name="Trp_Trp_monday_date">الإثنين</string>
+    <string name="Trp_Trp_lbl_tuesday_date">الثلاثاء</string>
+    <string name="Trp_Trp_lbl_wednesday_date">الأربعاء</string>
+    <string name="Trp_Trp_thursday_date">الخميس</string>
+    <string name="Trp_Trp_friday_date">الجمعة</string>
+    <string name="Trp_Trp_saturday_date">السبت</string>
+
+    <string name="Gen_Gen_lbl_comma">،</string>
+    <string name="Trp_TrDt_lbl_days">أيام</string>
+    <string name="Trp_PlcSrch_lbl_select_location_on_map">حدد من الخريطة </string>
+    <string name="Gen_Gen_lbl_default_time_available">12:00 ص</string>
+    <string name="Trp_Gen_lbl_zero_hrs">00:00 ساعة</string>
+    <string name="Rde_RdeDhHH_lbl_ride_requests">طلب مشوار</string>
+    <string name="Rde_RdeReq_lbl_status_caps">الحالة</string>
+    <string name="Rde_RdeStu_lbl_duration_caps">المدة الزمنية</string>
+    <string name="Rde_RdeReq_lbl_duration_caps">المدة الزمنية</string>
+    <string name="Rde_RdeReq_lbl_request">طلب</string>
+    <string name="Rde_RdeDhHH_lbl_rider_dashboard">لوحة المعلومات</string>
+    <string name="Rde_RdeReqLst_lbl_ride_requests_title">طلب العروض</string>
+
+    <string name="Rde_RdeDh_lbl_pending">قيد الانتظار</string>
+    <string name="Rde_Gen_lbl_driver_accepted">تم القبول من السائق</string>
+    <string name="Rde_RdeStu_lbl_rider_accepted">تم القبول من الراكب</string>
+    <string name="Rde_RdeStu_lbl_rider_rejected">تم الرفض من الراكب</string>
+    <string name="Rde_RdeStu_lbl_ride_completed">منجز</string>
+    <string name="Rde_RdeStu_lbl_rider_expired">انتهت صلاحية المشوار</string>
+    <string name="Rde_RdeStu_lbl_ride_canceled">تم إلغاء المشوار</string>
+    <string name="Rde_RdeStu_lbl_ride_rejected">تم الرفض من الراكب</string>
+    <string name="Rde_RdeDhHH_lbl_no_pending_rides">لا يوجد مشاوير غير منجزة</string>
+    <string name="Rde_RdeDhHH_lbl_no_rides_available">لا يوجد مشاوير</string>
+    <string name="Trp_RdeDt_lbl_start_trip">بدء رحلة</string>
+
+    <string name="Veh_AdDev_lbl_device_hotspot">موترناواي فاي</string>
+    <string name="Veh_AdDev_lbl_device_enable">تفعيل الجهاز</string>
+    <string name="Dev_AdDev_lbl_on">فعال</string>
+    <string name="Dev_AdDev_lbl_off">غير فعال</string>
+    <string name="Dev_AdDev_lbl_enable_hotspot">تفعيل الواي فاي</string>
+
+    <!-- User Profile From Side Menu -->
+    <string name="Usr_UsrPrf_lbl_user_updated">تم تحديث الملف الشخصي بنجاح</string>
+
+    <string name="Rde_RdeLvTrk_lbl_arrival_duration">-- وصول</string>
+    <string name="Rde_RdeLvTrk_lbl_arrival">وصول</string>
+    <string name="Gen_Gen_lbl_view">عرض</string>
+    <string name="Trp_TrDt_lbl_request_ride">اطلب مشوار</string>
+    <string name="Gen_Gen_SBtn_add_destination">إضافة وجهة</string>
+    <string name="Drv_DrvDh_lbl_minutes">دقيقة</string>
+    <string name="Drv_DrvDh_lbl_maximum_speed">السرعة القصوى</string>
+    <string name="HHD_Gen_CC_average_speed">متوسط ​​السرعة</string>
+    <string name="Trp_Notf_lbl_trip_started">بدأت الرحلة</string>
+    <string name="Trp_Gen_lbl_trip_ended">انتهت الرحلة</string>
+    <string name="Rde_Notf_lbl_driver_arrived">وصل السائق</string>
+
+    <!-- Hotspot COnfiguration -->
+
+    <string name="Gen_Gen_lbl_nine_plus">+99</string>
+
+    <string name="Gen_Gen_lbl_dialog_no">إلغاء</string>
+    <string name="Rde_RdeStu_lbl_empty_distance"> - كم  </string>
+    <string name="Rde_RdeStu_lbl_empty_duration"> -  \n دقيقة </string>
+
+    <string name="Veh_Gen_lbl_event_alert_title">تنبيه الموعد</string>
+    <string name="Veh_Gen_lbl_event_alert_body">بناء على الكيلومترات المقطوعة والتاريخ الحالي، ستتلقى اشعار عندما يحين موعد الصيانة التالي</string>
+
+    <string name="Usr_DrvDh_lbl_violations">التجاوزات</string>
+    <string name="Veh_DocMod_lbl_document_details">تفاصيل الملف</string>
+    <string name="Zon_ZonDt_lbl_zone_name">اسم النطاق</string>
+
+    <string name="Gen_Land_SBtn_retry_config_call">إعادة المحاولة</string>
+    <string name="Gen_Land_lbl_retry_config_error_message">يجب أن تكون متصلا بالإنترنت، يرجى التحقق من إعدادات الإنترنت.</string>
+    <string name="Veh_EvtLst_lbl_select_days_threshold">عدد الأيام الأقصى</string>
+    <string name="Veh_Evt_lbl_zero">0</string>
+
+    <string name="Veh_Evt_lbl_days">أيام</string>
+    <string name="ApI_Intr_lbl_intro_skip">تخطى</string>
+    <string name="ApI_Intr_lbl_intro_next">التالى</string>
+    <string name="ApI_Intr_lbl_intro_done">البداية</string>
+
+
+
+    <string name="Usr_UsrPrf_lbl_change_phone_number">تغيير رقم الجوال</string>
+
+    <!-- new sign in sign up screen -->
+    <string name="SignIn_SignIn_lbl_device_serial_number">الرقم التسلسلي للجهاز</string>
+    <string name="SignIn_SignIn_lbl_enter">أدخل</string>
+    <string name="SignIn_SignIn_lbl_resent_pin">إعادة إرسال </string>
+    <string name="SignIn_SignIn_lbl_phone">الهاتف</string>
+    <string name="SignIn_SignIn_lbl_enter_phone">أدخل رقم هاتفك</string>
+    <string name="SignIn_SignIn_lbl_go">أدخل</string>
+    <string name="SignIn_SignIn_lbl_verify_pin">رمز التحقق</string>
+    <string name="SignIn_SignIn_lbl_pin">الرمز</string>
+    <string name="SignIn_SignIn_lbl_pin_inf">الرجاء إدخال الرمز المرسل عن طريق البريد الإلكتروني أو على الجوال </string>
+    <string name="SignIn_SignIn_lbl_add_device_title">أدخل الرقم التسلسلي ورمز التفعيل الوارد في دليل المستخدم في الصندوق</string>
+    <string name="SignIn_SignIn_lbl_add_device_not_find">لا يمكن العثور عليه؟</string>
+    <string name="SignIn_SignIn_lbl_add_device_find">اضغط هنا</string>
+    <string name="SignIn_SignIn_lbl_add_device_donnot_have">ليس لديك جهاز بعد؟</string>
+
+    <!-- HouseHolder Dashboard screen -->
+    <string name="Gen_Gen_lbl_alerts">التنبيهات</string>
+    <string name="HHD_HHDh_current_status">الحالة الحالية</string>
+    <string name="HHD_HHDh_total_daily_summary">الملخص اليومي</string>
+    <string name="HHD_HHDh_engine_status">حالة المحرك</string>
+
+    <!-- Vehicle alerts screen -->
+    <string name="Veh_ALt_lbl_alerts">التنبيهات</string>
+    <string name="Veh_ALt_lbl_latest">الأخيرة</string>
+    <string name="Veh_ALt_lbl_previous">السابقة</string>
+
+    <!-- Vehicle history screen -->
+    <string name="Veh_VehHist_lbl_title">السجل</string>
+    <string name="Veh_VehCalendar_lbl_title">Calendar</string>
+    <string name="Veh_Maintnc_notif_lbl_title">تنبيهات الصيانة</string>
+    <string name="Veh_VehHist_lbl_events_title">المواعيد</string>
+    <string name="Trp_TrDt_lbl_upcoming_trip">القادمة</string>
+
+
+    <string name="Gen_Gen_lbl_motorna">موترنا</string>
+
+    <string name="ApDr_ApDr_SBtn_home">الرئيسية</string>
+    <string name="ApDr_ApDr_SBtn_check_in">التحقق</string>
+    <string name="ApDr_ApDr_SBtn_bracelet">سوار</string>
+    <string name="ApDr_ApDr_SBtn_emergency">الطوارئ</string>
+    <string name="ApDr_ApDr_SBtn_family">العائلة</string>
+    <string name="ApDr_ApDr_SBtn_motorna_wifi">موترنا واي فاي</string>
+    <string name="HHD_Gen_txt_label_profile">حسابي 1</string>
+    <string name="ApDr_ApDr_SBtn_road_assistance">دعم الطرق</string>
+    <string name="ApDr_ApDr_SBtn_support">الدعم التقني</string>
+    <string name="ApDr_ApDr_SBtn_store">اشتراك</string>
+
+    <string name="WebV_WebV_lbl_store">المتجر</string>
+    <string name="WebV_WebV_lbl_FAQs">مساعدة</string>
+
+    <string name="Veh_DhAl_vehicle_alerts_threshold">ذكرني قبل الموعد بـ : </string>
+
+    <string name="Veh_DhAl_vehicle_save_changes">هل تريد حفظ التغييرات؟</string>
+    <string name="Veh_DhAl_vehicle_document_notification_lbl">تنبيهات انتهاء صلاحية الملفات</string>
+    <string name="Veh_DhAl_vehicle_maintenance_notification_lbl">تنبيهات الصيانة</string>
+    <string name="Veh_VehWif_lbl_wifi_title">موترنا واي فاي</string>
+
+
+    <string name="ContUs_ContUs_lbl_attach_image">إرفاق صورة</string>
+
+    <string name="Gui_Gui_emergency_contact_tab">الطوارئ</string>
+    <string name="Zon_Zon_lbl_zone_details_screen_title">تفاصيل النطاق</string>
+    <string name="ApI_ContUs_lbl_screen_title">اتصل بنا</string>
+
+    <string name="Zon_Zon_lbl_zone_type_exit">خروج من منطقة</string>
+    <string name="Zon_Zon_lbl_zone_type_entry">دخول إلى منطقة</string>
+    <string name="Zon_Zon_lbl_new_zone_title">نطاق جديد</string>
+
+    <string name="Zon_Zon_lbl_select_current_location">أو موقعك الحالي</string>
+    <string name="Zon_Zon_lbl_select_Vehicle_location">أو موقع  سيارة موترنا</string>
+    <string name="Zon_Zon_lbl_select_favorite_location">أو من القائمة المفضلة</string>
+    <string name="Zon_Zon_lbl_search_vehicle_position_empty">موقع السيارة غير موجود</string>
+
+
+    <string name="ApI_ContUs_lbl_in_progress_status">جاري المعالجة</string>
+    <string name="ApI_ContUs_lbl_completed_status">تمت</string>
+    <string name="ApI_ContUs_lbl_item_created_time">تم الإنشاء</string>
+    <string name="ApI_ContUs_lbl_item_completed_time">تمت</string>
+    <string name="ApI_ContUs_lbl_item_ticket_number">رقم التذكرة:</string>
+
+    <string name="Veh_ALt_lbl_search_pop_up_error_time">يجب أن يكون وقت الانتهاء بعد وقت البدء</string>
+
+    <string name="Veh_ALt_lbl_filter_alert_title">تصنيف</string>
+    <string name="Veh_ALt_lbl_filter_alert_start_date">تاريخ البدء</string>
+    <string name="Veh_ALt_lbl_filter_alert_end_date">تاريخ الانتهاء</string>
+    <string name="Veh_ALt_lbl_filter_alert_reset_label">إعادة</string>
+    <string name="Veh_ALt_lbl_filter_alert_show_result">أظهر النتائج </string>
+    <string name="Veh_ALt_lbl_filter_alert_other_list_title">تنبيهات أخرى</string>
+    <string name="Veh_ALt_lbl_filter_alert_in_zone">دخول إلى منطقة</string>
+    <string name="Veh_ALt_lbl_filter_alert_out_zone">خارج المنطقة</string>
+    <string name="Veh_ALt_lbl_filter_alert_zone_alert">تنبيه نطاق</string>
+    <string name="SignIn_SignIn_lbl_pin_lock">SIM PIN</string>
+
+    <string name="Zon_ZonDt_lbl_zone_error_no_vehicle_selected" formatted="false">لم يتم تحديد سيارة</string>
+
+    <string name="Veh_AddVeh_lbl_driver_title">إضافة سائق</string>
+
+    <string name="User_InvUser_lbl_contact_info">معلومات الاتصال الجديدة</string>
+
+    <string name="Usr_UsrPrf_lbl_profile_notif_settings">اعدادات الاشعارات</string>
+
+    <string name="Veh_VehPrf_lbl_profile_no_event">لا توجد أحداث </string>
+    <string name="Alrt_ALrt_lbl_profile_notif_settings">إعدادات الإشعار</string>
+
+    <string name="Usr_UsrPrf_lbl_change_phone_number_dialog_field">رقم هاتفي الجديد</string>
+    <string name="Usr_UsrPrf_lbl_change_phone_number_dialog_empty_filed">الحقل مطلوب</string>
+    <string name="Usr_UsrPrf_lbl_otp_code_dialog_title">أدخل الرمز </string>
+    <string name="Veh_VehAlt_lbl_no_alerts_found">لا يوجد تنبيهات</string>
+    <string name="Veh_VehPrf_lbl_speed_limit_dialog_title">إختر الحد الأقصى للسرعة</string>
+    <string name="Gen_Gen_lbl_error_country_code">رمز البلد غير صحيح</string>
+    <string name="Veh_VehWif_lbl_empty_password">الرجاء إدخال كلمة المرور</string>
+    <string name="Veh_VehLst_lbl_vehicles_title">موترنا</string>
+    <string name="Sub_SubList_lbl_subscription_title">الاشتراك</string>
+    <string name="HHD_HHDh_lbl_no_vehicle_found">لم يتم العثور على السيارة</string>
+    <string name="Pay_Payfort_lbl">ر.س</string>
+    <string name="Pay_Payfort_Date_lbl">1 سنة </string>
+    <string name="Pay_Payfort_Date_month_lbl">6 اشهر</string>
+    <string name="Pay_Payfort_item_lbl">الرقم التسلسلي : </string>
+    <string name="Pay_Payfort_item_car_name">اسم السيارة  :</string>
+    <string name="Pay_Payfort_item_start_date_lbl">تاريخ البدء : </string>
+    <string name="Pay_Payfort_item_end_date_lbl">تاريخ النهاية : </string>
+    <string name="Usr_AdUsr_Iptxt_valid_email">الرجاء إدخال بريد إلكتروني صحيح</string>
+    <string name="Sub_SubList_toolbar_subscription_title">الاشتراك</string>
+    <string name="Usr_Subsc_Iptxt_messg_expiry"> أيام متبقية لانتهاء مدة الصلاحية</string>
+    <string name="Sub_SubList_toolbar_subscription_inf">السعر غير شامل الضريبة</string>
+    <string name="Sub_SubList_toolbar_subscription_pay_method">بطاقة مدى/ بطاقة الائتمان/ بطاقة الخصم</string>
+    <string name="Subs_Payment_lbl__SA_inf">عملية الدفع لدينا آمنة وموثوقة، حيث يتم تشفير معلوماتك الشخصية وبيانات الدفع الخاصة بك بنظام تشفير موثوق،\n كما أننا لا نقوم بتخزين أي معلومات تخص بطاقة الدفع على النظام لدينا.</string>
+    <string name="Householder_Livtr_List_mesg_bad_cnx">مواجهة مشاكل الاتصال الضعيفة…</string>
+
+    <string name="Usr_UsrPr_empty_name_field">اسم المستخدم مطلوب</string>
+    <string name="App_Version_UsrPr_txt">الرجاء تحديث التطبيق بالنسخة الجديدة</string>
+    <string name="Usr_UsrPr_dtc_name_messg">هناك بعض المشاكل التقنية في سيارتك، الرجاء استشارة ميكانيكي مختص حالا </string>
+    <string name="Usr_UsrPr_sub_name_lbl">تنبيه الاشتراك!  </string>
+    <string name="Usr_UsrPr_vehicle_not_found_lbl">لا توجد بيانات لموقع موترنا ، الرجاء التأكد من اتصال الجهاز</string>
+    <string name="Usr_UsrPr_device_expiry_14lbl">أيام متبقي قبل إنتهاء مدة الصلاحية . يرجى تجديد اشتراكك </string>
+    <string name="Usr_UsrPr_device_expiry_7_lbl"> أيام متبقي  قبل إنتهاء مدة الصلاحية . يرجى تجديد اشتراكك </string>
+    <string name="Usr_UsrPr_device_expiry_0_lbl">إنتهاء مدة الإشتراك! يرجى التجديد </string>
+    <string name="Usr_UsrPr_device_30min_connectivity">معلومات موقع المركبة غير محدثة. نرجو التأكد من اتصال الجهاز</string>
+    <string name="Gen_Land_lbl_terms_message"> بتسجيلك الدخول تكون قد قرأت ووافقت على </string>
+    <string name="Gen_Land_lbl_terms2_message">  <u>الشروط والأحكام </u> و على </string>
+    <string name="Gen_Land_lbl_warranty_message"><u>سياسة الضمان و الارجاع </u></string>
+    <string name="Gen_Land_lbl_terms_config">الشروط والأحكام </string>
+    <string name="Usr_UsrPr_renew_expiry_lbl">جدد الآن</string>
+    <string name="Usr_UsrPr_info_expiry_lbl">تم إنتهاء مدة الاشتراك </string>
+    <string name="Gen_Land_lbl_warranty_config">سياسة الضمان و الارجاع</string>
+    <string name="Gen_Land_lbl_price">السعر:</string>
+    <string name="Gen_Land_lbl_vat">ضريبة القيمة المضافة 5 ٪ :</string>
+    <string name="Gen_Land_lbl_total">المجموع:</string>
+    <string name="Gen_Land_lbl_year">ر.س/السنة</string>
+    <string name="Gen_Land_lbl_yesterday">الامس</string>
+    <string name="Gen_Land_lbl_today">اليوم</string>
+    <string name="Pay_Payfort_Iptxt_add_hint_email">الرجاء إدخال بريدك الإلكتروني</string>
+    <string name="SignIn_SignIn_lbl_language">EN</string>
+
+
+    <string name="setting_restart_app_required_label">إعادة التشغيل مطلوبة</string>
+    <string name="setting_restart_app_confirmation">هذا يتطلب إعادة تشغيل التطبيق. هل أنت متأكد أنك تريد إغلاق التطبيق الآن؟</string>
+
+    <string name="register_successfully">تم تسجيل معرف وجهك بنجاح</string>
+    <string name="face_not_saved">يرجى ملاحظة أنه لن تتم مشاركة جهاز Face ID أو تخزينه في أي خادم يتوقع هاتفك</string>
+    <string name="face_id_reg">تسجيل Face ID</string>
+    <string name="verify_identity">يرجى التحقق من هويتك</string>
+    <string name="note_face_id">* يرجى ملاحظة أنه لن تتم مشاركة جهاز Face ID أو تخزينه في أي خادم يتوقع هاتفك.</string>
+    <string name="sign_up">سجل</string>
+    <string name="sign_in">تسجيل الدخول</string>
+
+    <string name="HHD_HHDh_first_sign_up_screen_title">تسجيل</string>
+    <string name="HHD_HHDh_first_sign_up_start_button">إبدأ</string>
+    <string name="HHD_HHDh_first_sign_up_next_button">التالى</string>
+    <string name="HHD_HHDh_first_sign_up_content">مرحبًا بك في تطبيق STAY HOME الذي أطلقته وزارة الصحة السعودية لضمان سلامتك وصحتك من فيروس COVID-19</string>
+    <string name="HHD_HHDh_first_sign_up_content_two">الرجاء بدء عملية التسجيل التي ستتضمن إضافة موقع منزلك و معرف الوجه إلى التطبيق.</string>
+
+    <string name="HHD_HHDh_diagnose_questions">أسئلة التشخيص الذاتي</string>
+    <string name="HHD_HHDh_guidelines_message">للحفاظ على نفسك والآخرين بصحة جيدة. يهدف هذا الاستطلاع إلى تعريفك بأفضل الإرشادات</string>
+
+    <string name="HHD_HHDh_cough_status">هل تعاني من السعال؟</string>
+    <string name="HHD_HHDh_headache_status">هل لديك صداع ؟</string>
+    <string name="HHD_HHDh_fever_status">هل لديك حمى عالية؟</string>
+    <string name="HHD_HHDh_breath_status">هل لديك ضيق في التنفس؟</string>
+    <string name="HHD_HHDh_no_suffer_status">لا أعاني من أي من الأعراض المذكورة أعلاه</string>
+    <string name="HHD_HHDh_register_location_message">وفقًا لتعليمات الهيئة وسلامتك ، يرجى تسجيل موقع منزلك</string>
+    <string name="HHD_HHDh_sur_quarantine_message">إنتظر من فضلك ، هل أنت متأكد من الانتهاء من الحجر الصحي الخاص بك.</string>
+    <string name="HHD_HHDh_continue_quarantine_message">عذرًا ، يجب عليك الاستمرار في استخدام التطبيق حتى الحجز الذاتي</string>
+    <string name="HHD_HHDh_register_new_location_message">الرجاء تحديد موقع منزلك الحقيقي بالضغط على الخريطة</string>
+    <string name="HHD_HHDh_location_saved_message">تم حفظ موقع منزلك بنجاح!</string>
+    <string name="HHD_HHDh_location_verification_message">هل أنت متأكد من أن هذا هو موقع منزلك؟</string>
+    <string name="support_screen_send_button">إرسال</string>
+    <string name="support_screen_title">إتصل بالدعم التقني إذا كان لديك أي مشكلة مع التطبيق</string>
+    <string name="emergency_screen_call_button">إتصل بالطوارئ</string>
+    <string name="emergency_screen_need_help_lbl">تحتاج للمساعدة</string>
+    <string name="emergency_screen_symptoms_lbl">إذا كان لديك أي أعراض:</string>
+    <string name="emergency_screen_cough_lbl">سعال</string>
+    <string name="emergency_screen_shortness_of_breath_lbl">ضيق في التنفس</string>
+    <string name="emergency_screen_headache_lbl">صداع في الراس</string>
+    <string name="emergency_screen_fever_lbl">حمى</string>
+    <string name="emergency_screen_assistance_lbl">وتحتاج مساعدة من فضلك</string>
+    <string name="Gen_Gen_lbl_loader_wait">الرجاء الانتظار</string>
+    <string name="instructions_heath">حسب تعليمات وزارة الصحة خلال فترة الحجر الصحي</string>
+    <string name="cobfirm_identity">يجب عليك تأكيد هويتك بانتظام. سيتم تخزين البيانات على هاتفك.</string>
+    <string name="are_there">مرحبا أنت هناك ؟</string>
+    <string name="am_here">نعم انا هنا</string>
+    <string name="success_check_in">تم تسجيل الوصول بنجاح.</string>
+    <string name="stay_home">يرجى البقاء في المنزل وتكون آمنة.</string>
+    <string name="failed_chech_in">فشل تسجيلك!</string>
+    <string name="time_checking">الوقت المتبقي لتسجيل الوصول.</string>
+    <string name="try_again">حاول مجددا</string>
+    <string name="recognize">تعرف</string>
+    <string name="stay_at_home">1. ابق في المنزل</string>
+    <string name="keep_phone">2. حافظ على هاتفك في وضع التشغيل وكان لديه بطارية كافية طوال الوقت</string>
+    <string name="keep_stay_home">3. الحفاظ على عمل تطبيق STAYHOME</string>
+    <string name="keep_gps">4. حافظ على تفعيل GPS و Wifi و Bluetooth</string>
+    <string name="agreed">متفق عليه</string>
+    <string name="success_signed_up">لقد قمت بالتسجيل بنجاح.</string>
+
+    <string name="bracelet_fragment_title">إضافة سوار</string>
+    <string name="bracelet_fragment_second_title">إضافة سوار يدويًا</string>
+    <string name="bracelet_fragment_third_title">حالة السوار</string>
+    <string name="bracelet_fragment_add_bracelet_first_description">من أجل سلامتك،  \nالرجاء التأكد من توصيل سوارك والبقاء بالقرب من هاتفك.</string>
+    <string name="bracelet_fragment_add_bracelet_second_description">الرجاء إدخال رمز السوار الخاص بك</string>
+    <string name="bracelet_fragment_add_bracelet_third_description">رمز السوار</string>
+    <string name="bracelet_fragment_add_bracelet_dialog_title">الرجاء إضافة سوار الخاص بك</string>
+    <string name="bracelet_fragment_add_manually_label">إضافة يدوية</string>
+    <string name="bracelet_fragment_scan_label">مسح</string>
+    <string name="bracelet_fragment_dialog_confirmation_title_label">هل أنت متأكد من أن هذا هو الرمز الصحيح ؟</string>
+    <string name="bracelet_fragment_dialog_confirmation_button_label">نعم، بالتأكيد</string>
+    <string name="bracelet_fragment_dialog_success_mrssage_label">متصل</string>
+    <string name="bracelet_fragment_dialog_error_mrssage_label">عفوا، الرجاء التحقق من الرمز </string>
+    <string name="beacon_screen_title">أجهزة البلوتوث القريبة</string>
+
+</resources>

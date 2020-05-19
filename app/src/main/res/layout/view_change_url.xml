@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/view_change_url_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/SgIn_SgIn_lbl_server_url_dialog_title"
+            android:textSize="18sp"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="4dp"
+            android:visibility="visible"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/view_change_base_url_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/SgIn_SgIn_lbl_server_url_dialog_hint" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/view_change_identity_url_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/SgIn_SgIn_lbl_server_url_dialog_hint" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/view_change_signal_r_url_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:visibility="gone"
+            android:hint="@string/SgIn_SgIn_lbl_server_signal_r_url_dialog_hint" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/view_change_url_confirm_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="@string/Gen_Gen_lbl_ok"
+        android:layout_alignParentEnd="true"
+        android:textSize="16sp"
+        android:layout_below="@+id/view_change_url_container" />
+</RelativeLayout>

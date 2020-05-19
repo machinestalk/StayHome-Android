@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true">
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fabMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="5dp"
+        app:menu_animationDelayPerItem="50"
+        app:menu_backgroundColor="@android:color/transparent"
+        app:menu_buttonSpacing="0dp"
+        app:menu_colorNormal="@color/white"
+        app:menu_colorPressed="@color/gray"
+        app:menu_colorRipple="@color/white"
+        app:menu_fab_size="mini"
+        app:menu_icon="@drawable/ic_layer"
+        app:menu_openDirection="down"
+        app:menu_labels_singleLine="true"
+        app:menu_labels_position="right">
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</RelativeLayout>

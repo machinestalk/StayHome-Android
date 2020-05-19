@@ -1,0 +1,20 @@
+#!/usr/bin/env groovy 
+node('master')
+{
+        env.ANDROID_ZIPALIGN ="/android-sdk-linux/build-tools/27.0.3/zipalign"
+        def andgradle
+  stage('checkout') {
+        checkout scm
+    }
+  
+      stage('SonarQube'){
+         andgradle = docker.build("andgradle", ".")
+         andgradle = docker.image("andgradle")
+         andgradle.inside('-v ${PWD}:/app -w /app'){
+              sh 'mv /local.properties .'
+              sh './gradlew sonarqube'
+                }
+    }
+    
+
+}

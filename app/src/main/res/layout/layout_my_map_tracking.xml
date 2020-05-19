@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="locale"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/mapContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:id="@+id/selectLocationBlock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <FrameLayout
+                android:id="@+id/location_bubble_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.machinestalk.android.components.ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/map_text_bg"/>
+
+                <com.machinestalk.stayhome.components.TextView
+                    android:id="@+id/trip_bubble_text"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:text="@string/LMT_Gen_lbl_location_on_map"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="14sp"/>
+
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/imageMarker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_pick_location_marker"/>
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <com.machinestalk.stayhome.components.FabLayout
+        android:id="@+id/fabLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"/>
+
+
+    <ToggleButton
+        android:id="@+id/toggleLocation"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/selector_toggle_location"
+        android:checked="false"
+        android:textOff=""
+        android:textOn="" />
+
+
+</RelativeLayout>
