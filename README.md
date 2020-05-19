@@ -1,4 +1,3 @@
-"# My project's README" 
 StayHome-Android<br>
 description<br>
 Stayhome KSA is a mobile application of machinestalk with a triple objective:<br>
